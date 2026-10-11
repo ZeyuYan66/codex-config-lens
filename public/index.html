@@ -3,28 +3,28 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="lens-token" content="__LENS_TOKEN__"><title>Codex Config Lens</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%2328544b'/%3E%3Ccircle cx='18' cy='17' r='8' stroke='white' fill='none' stroke-width='3'/%3E%3Cpath d='m24 23 7 7' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%2324292f'/%3E%3Ccircle cx='18' cy='17' r='8' stroke='white' fill='none' stroke-width='3'/%3E%3Cpath d='m24 23 7 7' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="/styles.css"><script type="module" src="/app.mjs"></script>
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="/" aria-label="Codex Config Lens"><span class="logo" aria-hidden="true">⌕</span><span>Codex <b>Config Lens</b></span></a><div class="top-actions"><span class="local" data-i18n="localBadge"></span><div class="languages" aria-label="Language"><button id="lang-zh" type="button" lang="zh-CN">中文</button><button id="lang-en" type="button" lang="en">English</button></div></div></header>
+  <header class="topbar"><a class="brand" href="/" aria-label="Codex Config Lens"><span class="logo" aria-hidden="true">[ ]</span><span>Codex <b>Config Lens</b></span></a><div class="top-actions"><span class="local" data-i18n="localBadge"></span><div class="languages" aria-label="Language"><button id="lang-zh" type="button" lang="zh-CN">中文</button><button id="lang-en" type="button" lang="en">English</button></div></div></header>
   <main class="shell">
     <aside class="sidebar">
       <div class="section-label" data-i18n="navWorkspace"></div>
       <form id="scan-form"><label for="project" data-i18n="projectLabel"></label><input id="project" name="project" spellcheck="false" autocomplete="off" data-placeholder="projectPlaceholder"><p class="hint" data-i18n="projectHint"></p><button id="scan" class="primary full" type="submit" data-i18n="scan"></button></form>
       <div class="rail-divider"></div><div class="section-label" data-i18n="navDemo"></div>
-      <div class="scenarios"><button type="button" class="scenario" data-case="syntax-error"><span class="scenario-number">01</span><span data-i18n="demoSyntax"></span><span aria-hidden="true">↗</span></button><button type="button" class="scenario" data-case="untrusted-project"><span class="scenario-number">02</span><span data-i18n="demoTrust"></span><span aria-hidden="true">↗</span></button><button type="button" class="scenario" data-case="missing-script"><span class="scenario-number">03</span><span data-i18n="demoScript"></span><span aria-hidden="true">↗</span></button></div>
-      <p class="hint" data-i18n="demoHint"></p><div class="sidebar-note"><span aria-hidden="true">◎</span><span data-i18n="footer"></span></div>
+      <div class="scenarios"><button type="button" class="scenario" data-case="syntax-error"><span data-i18n="demoSyntax"></span></button><button type="button" class="scenario" data-case="untrusted-project"><span data-i18n="demoTrust"></span></button><button type="button" class="scenario" data-case="missing-script"><span data-i18n="demoScript"></span></button></div>
+      <p class="hint" data-i18n="demoHint"></p><div class="sidebar-note"><span data-i18n="footer"></span></div>
     </aside>
     <div class="workspace">
-      <div class="eyebrow" data-i18n="appName"></div><h1 data-i18n="tagline"></h1><p class="subtitle" data-i18n="subtitle"></p>
+      <h1 data-i18n="tagline"></h1><p class="subtitle" data-i18n="subtitle"></p>
       <p id="notice" role="status" aria-live="polite" hidden></p>
-      <section id="empty" class="empty"><div class="lens-art" aria-hidden="true"><span></span><span></span><i>⌕</i></div><h2 data-i18n="ready"></h2><p data-i18n="readyHint"></p></section>
+      <section id="empty" class="empty"><h2 data-i18n="ready"></h2><p data-i18n="readyHint"></p></section>
       <div id="results" hidden>
         <div class="result-bar"><span id="mode" class="mode"></span><div id="variant" class="segmented"><button type="button" data-variant="before" data-i18n="before"></button><button type="button" data-variant="after" data-i18n="after"></button></div></div>
         <div id="counts" class="counts"></div>
-        <section class="panel"><div class="panel-heading"><div><span class="panel-number">01</span><h2 data-i18n="sources"></h2></div><span class="small-chip" data-i18n="twoFiles"></span></div><p class="scope" data-i18n="scope"></p><div id="sources" class="source-files"></div><div class="table-wrap"><table><thead><tr><th data-i18n="settings"></th><th data-i18n="source_user"></th><th data-i18n="source_project"></th></tr></thead><tbody id="settings"></tbody></table></div><p class="hint provider-note" data-i18n="providerNote"></p></section>
-        <section class="panel"><div class="panel-heading"><div><span class="panel-number">02</span><h2 data-i18n="findings"></h2></div><span id="checks-total" class="small-chip"></span></div><div id="findings" class="finding-list"></div><div class="doctor-row"><div><strong id="doctor-status"></strong><p class="hint" data-i18n="doctorHint"></p></div><button id="doctor" type="button" class="secondary" data-i18n="doctor"></button></div></section>
+        <section class="panel"><div class="panel-heading"><div><h2 data-i18n="sources"></h2></div><span class="small-chip" data-i18n="twoFiles"></span></div><p class="scope" data-i18n="scope"></p><div id="sources" class="source-files"></div><div class="table-wrap"><table><thead><tr><th data-i18n="settings"></th><th data-i18n="source_user"></th><th data-i18n="source_project"></th></tr></thead><tbody id="settings"></tbody></table></div><p class="hint provider-note" data-i18n="providerNote"></p></section>
+        <section class="panel"><div class="panel-heading"><div><h2 data-i18n="findings"></h2></div><span id="checks-total" class="small-chip"></span></div><div id="findings" class="finding-list"></div><div class="doctor-row"><div><strong id="doctor-status"></strong><p class="hint" data-i18n="doctorHint"></p></div><button id="doctor" type="button" class="secondary" data-i18n="doctor"></button></div></section>
         <section class="export-panel"><div><span class="section-label" data-i18n="exportStep"></span><h2 data-i18n="report"></h2><p class="hint" data-i18n="exportHint"></p></div><div class="export-controls"><label for="format" data-i18n="format"></label><select id="format"><option value="markdown" data-i18n="markdown"></option><option value="toml" data-i18n="toml"></option></select><label for="source" data-i18n="source"></label><select id="source"><option value="project" data-i18n="source_project"></option><option value="user" data-i18n="source_user"></option></select><button id="preview" type="button" class="primary" data-i18n="preview"></button></div></section>
       </div>
     </div>

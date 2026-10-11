@@ -16,3 +16,9 @@ Regression checks cover unread source presentation in reports/templates/UI, Code
 Real doctor compatibility remains limited to the previously observed Codex CLI 0.144.5 schema. Automated subprocess tests use synthetic children and messages, and never run real MCP commands or require an account. Native executable resolution is tested; `.cmd`/`.bat` shims remain unsupported. Arbitrary-secret detection, hostile active local processes, full active-session resolution and non-Windows process-tree behavior are outside the documented scope.
 
 The standalone repository contains only this project. Local `.work/`, `node_modules/` and personal input files are excluded. The release contains source code, bilingual documentation, synthetic demos, screenshots, tests, CI and the companion skill.
+
+## Presentation update, 2026-10-12
+
+The interface now uses a white background, smaller headings and a compact summary row. Decorative step numbers and the empty-state illustration were removed. All four screenshots were captured again from the running app with synthetic inputs. The English and Chinese README text was edited without changing commands, inline code or link targets; detailed compatibility and service limits remain available in expandable sections.
+
+Local checks passed: 32 modules and 106 matching translation keys; 26 tests passed with the existing Windows symbolic-link privilege skip. Isolated Chromium checks covered 24 demo variants and eight preview/downloads in both languages at 1280px and 390px, keyboard focus, language changes and a static scan. There were no page errors or document overflow. This update does not move the v0.1.0 tag.
