@@ -2,7 +2,7 @@
 
 日期：2026-10-11（Asia/Shanghai）
 
-状态：用户于 2026-10-11 确认设计；已实现并完成本地验证，尚未公开发布。详见 [验证记录](../../verification.md)。
+状态：用户于 2026-10-11 确认设计；已实现并完成本地和 GitHub Windows CI 验证，已公开发布 [v0.1.0](https://github.com/ZeyuYan66/codex-config-lens/releases/tag/v0.1.0)。详见 [验证记录](../../verification.md)。
 独立项目目录：`codex-config-lens/`
 
 ## 1. 目标与用户
