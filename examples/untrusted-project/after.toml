@@ -1,0 +1,3 @@
+model = "demo-model"
+[projects."C:/lens-demo/project"]
+trust_level = "trusted"

@@ -1,0 +1,3 @@
+[mcp_servers.demo]
+command = "node"
+args = ["C:/lens-demo/missing.mjs"]

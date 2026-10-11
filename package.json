@@ -1,0 +1,16 @@
+{
+  "name": "codex-config-lens",
+  "version": "0.1.0",
+  "description": "Local, bilingual Codex configuration sources and diagnostics",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=24" },
+  "bin": { "codex-config-lens": "bin/codex-config-lens.mjs" },
+  "scripts": {
+    "start": "node bin/codex-config-lens.mjs serve",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": { "smol-toml": "1.9.0" },
+  "license": "MIT"
+}

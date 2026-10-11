@@ -1,0 +1,5 @@
+# For a real setup, replace this with a script whose existence you have verified.
+# The offline demo simulates existence; it does not create or execute this file.
+[mcp_servers.demo]
+command = "node"
+args = ["C:/lens-demo/server.mjs"]

@@ -1,0 +1,1 @@
+{"schemaVersion":1,"codexVersion":"0.144.5","checks":{"installation":{"id":"installation","status":"passed","summary":"fake-secret"},"dynamic-secret-id":{"id":"dynamic-secret-id","status":"passed","details":"fake-secret"}}}
