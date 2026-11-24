@@ -12,7 +12,10 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 ORIGINAL = {"engineering-media-studio", "lab-demo-edit"}
 INCLUDE_DIRS = ("catalog", "docs", "skills", "tests", "tools")
-INCLUDE_FILES = ("install.py", "LICENSE", "README.md", "THIRD_PARTY.md")
+INCLUDE_FILES = (
+    "install.py", "LICENSE", "README.md", "README.en.md",
+    "THIRD_PARTY.md", "THIRD_PARTY.en.md",
+)
 IGNORED = {".git", ".DS_Store", "node_modules", "__pycache__"}
 
 

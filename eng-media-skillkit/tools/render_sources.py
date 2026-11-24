@@ -32,6 +32,8 @@ def render(data):
     lines = [
         "# 技能来源索引",
         "",
+        "简体中文 · [English](SOURCES.en.md)",
+        "",
         f"来源盘点于 {data['snapshot_date']}。链接指向已记录的上游固定提交。"
         "复现工作流时，按相应来源的许可证和安装说明获取依赖。"
         "安装包里的技能和适配说明见[第三方技能](../THIRD_PARTY.md)。",

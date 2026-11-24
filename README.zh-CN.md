@@ -122,4 +122,4 @@ npm test
 
 ## 工科生与轻量剪辑技能包
 
-技能包提供课程设计、建模、实验报告和演示视频工作流，附离线安装器及中文目录。[查看技能包](eng-media-skillkit/README.md)
+技能包提供课程设计、建模、实验报告和演示视频工作流，附离线安装器和中英文目录。[简体中文](eng-media-skillkit/README.md) · [English](eng-media-skillkit/README.en.md)

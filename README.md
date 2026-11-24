@@ -122,4 +122,4 @@ MIT licensed. Third-party project; not affiliated with or endorsed by OpenAI. Wh
 
 ## Related skill pack
 
-The Engineering and Light Video Editing Skill Kit brings together workflows for coursework, CAD, experiment reports, and demo videos. It includes an offline installer and Chinese documentation. [Browse the skill kit](eng-media-skillkit/README.md)
+The Engineering and Light Video Editing Skill Kit brings together workflows for coursework, CAD, lab reports, and demo videos. It includes an offline installer and bilingual documentation. [English](eng-media-skillkit/README.en.md) · [简体中文](eng-media-skillkit/README.md)

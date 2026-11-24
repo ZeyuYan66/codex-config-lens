@@ -1,5 +1,11 @@
 # 维护与版本
 
+简体中文 · [English](MAINTAINING.en.md)
+
+## v1.0.1 · 2026-11-24
+
+补齐英文安装指南、完整目录、来源、授权与维护说明。两个原创工作流增加英文指引和字幕示例，中英文共用一个安装包。可按原路径下载 [v1.0.0](../downloads/eng-media-skillkit-v1.0.0.zip)。
+
 ## v1.0.0 · 2026-11-24
 
 首次发布。整理 98 个个人技能入口及其插件和参考库目录，提供离线安装、检查、更新与卸载。新增中文工程演示入口和可复用的镜头时间线与 SRT 生成脚本。
@@ -7,18 +13,19 @@
 ## 更新一个技能
 
 1. 找到当前固定提交以及相应许可证。比较新版的技能入口、脚本和资源，检查文件来源、运行依赖和作者声明。保留相对路径、许可证、NOTICE 和更新说明。
-2. 更新 `catalog/bundled.json` 或 `catalog/additional.json` 及其说明。更新本机盘点时也修改 `catalog/inventory.json` 和 `catalog/sources.json`，然后重新生成中文目录。
+2. 更新 `catalog/bundled.json` 或 `catalog/additional.json` 及 `catalog/english.json` 中的英文说明。更新本机盘点时也修改 `catalog/inventory.json` 和 `catalog/sources.json`，然后重新生成中英文目录。
 3. 跑安装测试和发布校验。涉及专业软件时，根据本次改动运行对应示例或项目测试。安装通过只能验证分发与装卸。
 4. 修改 README 下载链接和本页版本记录。构建新的带版本 ZIP 及 SHA-256，提交已核对的公开文件，保持此前版本的下载地址可用。
 
 ```sh
 python tools/render_catalog.py
 python tools/render_sources.py
+python tools/render_english.py
 python -m unittest discover -s tests -v
-python tools/build_release.py 1.0.0 --output downloads
+python tools/build_release.py 1.0.1 --output downloads
 ```
 
-发布 ZIP 包含完整技能源码、资源、脚本和许可证。要核对 SHA-256，在 Windows 可运行 `Get-FileHash eng-media-skillkit-v1.0.0.zip -Algorithm SHA256`，在 macOS 或 Linux 可运行 `shasum -a 256 eng-media-skillkit-v1.0.0.zip`，将结果对照下载页旁的校验文件。
+发布 ZIP 包含完整技能源码、资源、脚本和许可证。要核对 SHA-256，在 Windows 可运行 `Get-FileHash eng-media-skillkit-v1.0.1.zip -Algorithm SHA256`，在 macOS 或 Linux 可运行 `shasum -a 256 eng-media-skillkit-v1.0.1.zip`，将结果对照下载页旁的校验文件。
 
 ## 处理安装冲突
 

@@ -1,5 +1,7 @@
 # 随包分发的第三方技能
 
+简体中文 · [English](THIRD_PARTY.en.md)
+
 此表列出本包从上游收录的 33 个技能。每个技能目录都附有适用许可证。补充收录的来源和许可证见 [补充来源](docs/ADDITIONAL-SOURCES.md)。机器可读清单记录每个版本、依赖和适配说明。[bundled.json](catalog/bundled.json)
 
 FFmpeg 两个指南以 AGPL-3.0 原始文本源文件随包提供，具体条款见各自 LICENSE。OpenMotion 指南使用 Apache-2.0，配套的 OpenMotion 工具单独配置。GSAP 条目分发动画编写指南，运行代码时需另行配置 GSAP。KiCad PCB 指南的 LICENSE 同时保留 KiStack 的归属说明。

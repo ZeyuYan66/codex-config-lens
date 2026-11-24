@@ -57,6 +57,8 @@ def render(data):
     lines = [
         "# 技能目录",
         "",
+        "简体中文 · [English](CATALOG.en.md)",
+        "",
         f"本目录整理自 {data['snapshot_date']} 的一次 Codex 安装盘点。按任务查个人技能，按插件查扩展能力。"
         "安装包实际提供的内容、命令和外部软件要求见[安装说明](../README.md)。",
         "",

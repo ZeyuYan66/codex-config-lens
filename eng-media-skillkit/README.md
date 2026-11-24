@@ -1,10 +1,12 @@
 # 工科生与轻量剪辑 · Codex 一站式技能包
 
+简体中文 · [English](README.en.md)
+
 面向课程设计、实验报告、工程建模和短视频答辩。解压后运行一条命令，即可离线安装技能、配套资料与脚本。本包按用途组织，涵盖从模型和实验数据到图表、字幕和成片的工作。
 
 ## 下载与安装
 
-1. 下载 [eng-media-skillkit-v1.0.0.zip](downloads/eng-media-skillkit-v1.0.0.zip)，解压后在 `eng-media-skillkit` 目录打开终端。
+1. 下载 [eng-media-skillkit-v1.0.1.zip](downloads/eng-media-skillkit-v1.0.1.zip)，解压后在 `eng-media-skillkit` 目录打开终端。
 2. 使用 Python 3.10 或更新版本运行 `python install.py`。Windows 也可用 `py install.py`，macOS 和 Linux 也可用 `python3 install.py`。
 3. 在 Codex 新会话中输入 `$engineering-media-studio` 或 `$lab-demo-edit`。如果技能菜单还没刷新，重启 Codex。
 
@@ -37,11 +39,11 @@ python skills/lab-demo-edit/scripts/timeline.py skills/lab-demo-edit/assets/shot
 
 ## 清单、授权与维护
 
-本机盘点包含 98 个个人入口、6 个系统入口和 100 个会话已列出的插件技能，另记录 53 个其他插件缓存条目和 21 个参考集合。下载包提供 70 个可安装技能，包括 2 个中文原创入口。其余条目的用途、调用关系和已知来源可从目录查阅。系统或插件功能通过相应宿主获取，MATLAB、Simulink 等工具依各自许可证安装。
+本机盘点包含 98 个个人入口、6 个系统入口和 100 个会话已列出的插件技能，另记录 53 个其他插件缓存条目和 21 个参考集合。下载包提供 70 个可安装技能，两个原创工作流都附有中英文说明。其余条目的用途、调用关系和已知来源可从目录查阅。系统或插件功能通过相应宿主获取，MATLAB、Simulink 等工具依各自许可证安装。
 
 - 查看每个技能的中文用途、工作台入口及插件状态。[完整目录](docs/CATALOG.md)
 - 查找本机条目对应的上游固定版本或宿主。[来源索引](docs/SOURCES.md)
 - 查看随包技能的许可证、固定版本与工具依赖。[第三方技能](THIRD_PARTY.md) · [补充来源](docs/ADDITIONAL-SOURCES.md)
 - 校验下载、更新技能、重建 ZIP 并运行测试。[维护与版本](docs/MAINTAINING.md) · [SHA-256](downloads/SHA256SUMS.txt)
 
-原创脚本、中文工作流和包文档采用 MIT 许可。各上游技能的许可证附在相应技能目录中。[原创许可](LICENSE)
+原创脚本、工作流和包文档采用 MIT 许可。各上游技能的许可证附在相应技能目录中。第三方技能正文保留上游语言。[原创许可](LICENSE)
