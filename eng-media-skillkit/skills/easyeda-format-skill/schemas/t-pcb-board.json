@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "path": {
+      "description": "板框外形（**复杂多边形**，即 `TPcbComplexPolygon`）：外层数组的每个元素是一条子路径，\r\n每个元素本身又是一个单多边形（`TPcbSinglePolygon`）。\r\n\r\n读法为 **【外轮廓 + 内洞】**，且**只取首个子路径**\r\n（解码器的 `finish()` 会执行 `path = path[0]`，后续内洞当前不会被使用）。\r\n\r\n本图元的 id 是**固定单例名** `\"BOARD\"`（这类**固定单例 id** 见 `TSingletonElementId`）。",
+      "type": "array"
+    }
+  },
+  "required": [
+    "path"
+  ],
+  "description": "板子（板框）\r\n\r\nPCB / 封装域里**整块板的外形**，一行一条（`type:\"BOARD\"`）：\r\n它给出板框轮廓，也就是「这块板长什么样」。\r\n\r\n⚠️ 它是本域少见的**固定单例**图元：id 写死成 `\"BOARD\"`，一份文档里**只有一条**\r\n（这类 id 的写法见 `TSingletonElementId`）。"
+}

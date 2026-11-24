@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "焊盘定义",
+  "anyOf": [
+    {
+      "type": "object",
+      "properties": {
+        "padType": {
+          "description": "圆焊盘（椭圆形状，width/height 相等即为正圆）",
+          "type": "string",
+          "enum": [
+            "ELLIPSE"
+          ],
+          "enumDescriptions": {
+            "ELLIPSE": "圆焊盘"
+          }
+        },
+        "width": {
+          "description": "宽（mil）",
+          "type": "number"
+        },
+        "height": {
+          "description": "高（mil）",
+          "type": "number"
+        }
+      },
+      "required": [
+        "padType",
+        "width",
+        "height"
+      ],
+      "description": "圆焊盘（椭圆形状，width/height 相等即为正圆）"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "padType": {
+          "description": "矩形焊盘（radius 为圆角半径，0 表示直角）",
+          "type": "string",
+          "enum": [
+            "RECT"
+          ],
+          "enumDescriptions": {
+            "RECT": "矩形焊盘"
+          }
+        },
+        "width": {
+          "description": "宽（mil）",
+          "type": "number"
+        },
+        "height": {
+          "description": "高（mil）",
+          "type": "number"
+        },
+        "radius": {
+          "description": "圆角半径（mil）",
+          "type": "number"
+        }
+      },
+      "required": [
+        "padType",
+        "width",
+        "height",
+        "radius"
+      ],
+      "description": "矩形焊盘（radius 为圆角半径，0 表示直角）"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "padType": {
+          "description": "长圆焊盘（胶囊形：两端半圆、中间矩形）",
+          "type": "string",
+          "enum": [
+            "OVAL"
+          ],
+          "enumDescriptions": {
+            "OVAL": "长圆焊盘"
+          }
+        },
+        "width": {
+          "description": "宽（mil）",
+          "type": "number"
+        },
+        "height": {
+          "description": "高（mil）",
+          "type": "number"
+        }
+      },
+      "required": [
+        "padType",
+        "width",
+        "height"
+      ],
+      "description": "长圆焊盘（胶囊形：两端半圆、中间矩形）"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "padType": {
+          "description": "多边形焊盘",
+          "type": "string",
+          "enum": [
+            "POLYGON"
+          ],
+          "enumDescriptions": {
+            "POLYGON": "多边形焊盘"
+          }
+        },
+        "path": {
+          "description": "焊盘外形：**本身就是一个单多边形**（`TPcbSinglePolygon`，首尾自动闭合的一条不间断线），\r\n不是多边形的数组。\r\n\r\n⚠️ 本字段**不支持** `[\"R\", ...]` 矩形形态，仅支持 `[\"CIRCLE\", cx, cy, r]`\r\n整圆与上述指令序列。",
+          "type": "array"
+        }
+      },
+      "required": [
+        "padType",
+        "path"
+      ],
+      "description": "多边形焊盘"
+    }
+  ]
+}

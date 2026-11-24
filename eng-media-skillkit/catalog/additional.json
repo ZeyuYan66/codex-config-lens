@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "brandkit",
+      "path": "skills/brandkit",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/imagegen-skills/tree/beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e/skills/brandkit",
+      "revision": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e",
+      "description_zh": "为项目整理视觉规范与图像资产。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "cadquery-llm",
+      "path": "skills/cadquery-llm",
+      "license": "Apache-2.0",
+      "source": "https://github.com/jmwright/cadquery-llm-skill/tree/270c94be12897eea3fbfa450be43d1803a67cca7",
+      "revision": "270c94be12897eea3fbfa450be43d1803a67cca7",
+      "description_zh": "编写参数化实体、选择器和倒角，导出工程几何。",
+      "notes": "2026-11-24：保留建模示例与概念文档；补充 Codex 元数据，将镜像的 CadQuery 手册替换为官方文档链接。"
+    },
+    {
+      "name": "code-review",
+      "path": "skills/code-review",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/code-review",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "对照项目约定和需求审查改动。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "codebase-design",
+      "path": "skills/codebase-design",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/codebase-design",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "讨论模块接口与可测试性。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "design-taste-frontend-v1",
+      "path": "skills/design-taste-frontend-v1",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/taste-skill-classics/tree/5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305/skills/taste-skill-v1",
+      "revision": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "description_zh": "设计具有明确视觉方向的展示页。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "design-taste-frontend-v2-experimental",
+      "path": "skills/design-taste-frontend-v2-experimental",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/taste-skill-classics/tree/5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305/skills/taste-skill-v2-experimental",
+      "revision": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "description_zh": "试验展示页面的字体与布局。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "path": "skills/diagnosing-bugs",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/diagnosing-bugs",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "围绕可观察现象定位回归原因。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "domain-modeling",
+      "path": "skills/domain-modeling",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/domain-modeling",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "整理领域术语和设计决策。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "emil-design-eng",
+      "path": "skills/emil-design-eng",
+      "license": "MIT",
+      "source": "https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/emil-design-eng",
+      "revision": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "description_zh": "打磨演示页面的交互和动效。",
+      "notes": "使用本机保存的 Codex 适配版入口，随包附上许可全文。"
+    },
+    {
+      "name": "figma-designer",
+      "path": "skills/figma-designer",
+      "license": "MIT",
+      "source": "https://github.com/elayadesign/ai-design-skills/tree/456d9e0d3e2d84c748bb143c6ca3d90c45e16213/skills/figma-designer",
+      "revision": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+      "description_zh": "在 Figma 中组织页面与组件。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "gpt-taste",
+      "path": "skills/gpt-taste",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/taste-skill-classics/tree/5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305/skills/gpt-tasteskill",
+      "revision": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "description_zh": "评估网页布局与视觉层次。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "grill-me",
+      "path": "skills/grill-me",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/grill-me",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "通过追问明确设计假设。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "grill-with-docs",
+      "path": "skills/grill-with-docs",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/grill-with-docs",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "把需求讨论整理成设计记录。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "grilling",
+      "path": "skills/grilling",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/grilling",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "梳理方案中的待决问题。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "handoff",
+      "path": "skills/handoff",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/handoff",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "整理下一次开发会话所需的交接信息。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "high-end-visual-design",
+      "path": "skills/high-end-visual-design",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/taste-skill-classics/tree/5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305/skills/soft-skill",
+      "revision": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "description_zh": "为品牌展示设计柔和的视觉层次。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "humanizer",
+      "path": "skills/humanizer",
+      "license": "MIT",
+      "source": "https://github.com/blader/humanizer/tree/a32f24407364c74c812b43c15926d638bee1e072",
+      "revision": "a32f24407364c74c812b43c15926d638bee1e072",
+      "description_zh": "润色说明和演示稿，保留作者原意与事实。",
+      "notes": "保留上游正文中列出的写作资料和作者署名。"
+    },
+    {
+      "name": "image-to-code",
+      "path": "skills/image-to-code",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/imagegen-skills/tree/beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e/skills/image-to-code",
+      "revision": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e",
+      "description_zh": "将界面参考图转成前端实现。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "imagegen-frontend-mobile",
+      "path": "skills/imagegen-frontend-mobile",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/imagegen-skills/tree/beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e/skills/imagegen-frontend-mobile",
+      "revision": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e",
+      "description_zh": "用图像概念稿设计移动页面。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "imagegen-frontend-web",
+      "path": "skills/imagegen-frontend-web",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/imagegen-skills/tree/beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e/skills/imagegen-frontend-web",
+      "revision": "beb16b0d0f4dae9a6f5cb04ea41e97b93a54ab8e",
+      "description_zh": "用图像参考设计网页。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "path": "skills/improve-codebase-architecture",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/improve-codebase-architecture",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "检查模块职责并评估重构机会。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "industrial-brutalist-ui",
+      "path": "skills/industrial-brutalist-ui",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/taste-skill-classics/tree/5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305/skills/brutalist-skill",
+      "revision": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "description_zh": "设计工业风网页界面。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "landing-page-design",
+      "path": "skills/landing-page-design",
+      "license": "MIT",
+      "source": "https://github.com/elayadesign/ai-design-skills/tree/456d9e0d3e2d84c748bb143c6ca3d90c45e16213/skills/landing-page-design",
+      "revision": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+      "description_zh": "策划项目展示页的内容和视觉层次。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "minimalist-ui",
+      "path": "skills/minimalist-ui",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/taste-skill-classics/tree/5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305/skills/minimalist-skill",
+      "revision": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "description_zh": "设计极简文档与产品界面。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "prototype",
+      "path": "skills/prototype",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/prototype",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "制作小原型来检验设计假设。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "research",
+      "path": "skills/research",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/research",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "查阅一手资料并形成研究记录。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "scaffold-exercises",
+      "path": "skills/scaffold-exercises",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/misc/scaffold-exercises",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "为一门课程组织题目、答案与讲解。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "path": "skills/setup-matt-pocock-skills",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/setup-matt-pocock-skills",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "为项目选择术语文档和工单系统。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "stitch-design-taste",
+      "path": "skills/stitch-design-taste",
+      "license": "MIT",
+      "source": "https://github.com/Leonxlnx/taste-skill-classics/tree/5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305/skills/stitch-skill",
+      "revision": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "description_zh": "为 Stitch 整理视觉设计说明。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "tdd",
+      "path": "skills/tdd",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/tdd",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "用红绿重构循环编写回归测试。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "teach",
+      "path": "skills/teach",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/teach",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "在工作区安排循序渐进的练习。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "to-questionnaire",
+      "path": "skills/to-questionnaire",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/to-questionnaire",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "将待决选择整理为问卷。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "triage",
+      "path": "skills/triage",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/engineering/triage",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "整理已有项目问题和贡献者反馈。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "wait-what",
+      "path": "skills/wait-what",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/wait-what",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "用不同的解释方式重述难懂的回答。",
+      "notes": "保留原文及随附资源。"
+    },
+    {
+      "name": "writing-for-agents",
+      "path": "skills/writing-for-agents",
+      "license": "MIT",
+      "source": "https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa/skills/productivity/writing-for-agents",
+      "revision": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "description_zh": "编写面向开发代理的项目说明。",
+      "notes": "保留原文及随附资源。"
+    }
+  ]
+}

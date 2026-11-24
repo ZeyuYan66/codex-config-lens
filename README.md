@@ -119,3 +119,7 @@ Native Node tests cover parsing limits, Windows path comparisons, trust, MCP ref
 [Design and scope](docs/superpowers/specs/2026-10-11-codex-config-lens-design.md) · [Release checklist](docs/release-checklist.md) · [v0.1.0 notes](docs/releases/v0.1.0.md)
 
 MIT licensed. Third-party project; not affiliated with or endorsed by OpenAI. When reporting a bug, include a sample configuration that reproduces it. Do not submit credentials or raw personal diagnostic output.
+
+## Related skill pack
+
+The Engineering and Light Video Editing Skill Kit brings together workflows for coursework, CAD, experiment reports, and demo videos. It includes an offline installer and Chinese documentation. [Browse the skill kit](eng-media-skillkit/README.md)

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "description": "编辑者标识：**盘上有两种来源，含义不同，别断言它等于文档 uuid**。\r\n\r\n- **真实的 `EDIT_HEAD` 行**（由服务端保存接口写入）：是**保存者的用户 uuid**，\r\n  与同一块里文档头的 `user.uuid` 同值；\r\n- **解析器合成的行**（该块没有真实编辑头时兜底合成）：**此时才**等于文档头的 `uuid`。\r\n\r\n真机样本里这两者是两个完全不同的值，所以它**不是**「文档标识」。",
+      "type": "string"
+    },
+    "username": {
+      "description": "最后编辑者的用户名称",
+      "type": "string"
+    },
+    "nickname": {
+      "description": "最后编辑者的用户昵称",
+      "type": "string"
+    },
+    "updateTime": {
+      "description": "最后编辑时间：保存时写入的时间戳（毫秒）",
+      "type": "number"
+    }
+  },
+  "required": [
+    "uuid",
+    "username",
+    "nickname",
+    "updateTime"
+  ],
+  "description": "编辑头 类型"
+}

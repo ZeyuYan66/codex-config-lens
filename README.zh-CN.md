@@ -119,3 +119,7 @@ npm test
 [设计与范围](docs/superpowers/specs/2026-10-11-codex-config-lens-design.md) · [发布清单](docs/release-checklist.md) · [v0.1.0 说明](docs/releases/v0.1.0.md)
 
 采用 MIT 许可证。第三方项目，与 OpenAI 无隶属关系，未获得其背书。报告问题时，请附上能复现问题的模拟配置。不要提交凭证或个人原始诊断输出。
+
+## 工科生与轻量剪辑技能包
+
+技能包提供课程设计、建模、实验报告和演示视频工作流，附离线安装器及中文目录。[查看技能包](eng-media-skillkit/README.md)

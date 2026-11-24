@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "allowLibRename": {
+      "description": "是否工程库重名",
+      "type": "boolean"
+    },
+    "defaultNetName": {
+      "description": "原理图 - 是否默认网络名",
+      "type": "boolean"
+    },
+    "wireMultipleNet": {
+      "description": "原理图 - 是否导线多网络",
+      "type": "boolean"
+    },
+    "netFlagCrossLayerConnection": {
+      "description": "原理图 - 是否网络标识跨层连接",
+      "type": "boolean"
+    },
+    "netLabelCrossPageConnection": {
+      "description": "原理图 - 是否网络标识跨页连接",
+      "type": "boolean"
+    },
+    "busGenerateNetClass": {
+      "description": "原理图 - 是否网络标识总线生成网络类",
+      "type": "boolean"
+    },
+    "relevanceDisplayRow": {
+      "description": "原理图 - 显示方式",
+      "type": "string",
+      "enum": [
+        "SINGLE",
+        "MULTIPLE"
+      ],
+      "enumDescriptions": {
+        "SINGLE": "单行显示",
+        "MULTIPLE": "多行显示"
+      }
+    },
+    "relevanceBelongSchPage": {
+      "description": "原理图 - 所在图页",
+      "type": "string",
+      "enum": [
+        "NONE",
+        "NAME",
+        "NUMBER"
+      ],
+      "enumDescriptions": {
+        "NONE": "不显示",
+        "NAME": "名称",
+        "NUMBER": "序号"
+      }
+    },
+    "relevanceLocation": {
+      "description": "原理图 - 所在位置",
+      "type": "string",
+      "enum": [
+        "NONE",
+        "ZONE"
+      ],
+      "enumDescriptions": {
+        "NONE": "不显示",
+        "ZONE": "区域"
+      }
+    },
+    "multipartCrossLayer": {
+      "description": "多部件跨层",
+      "type": "boolean"
+    },
+    "nonElectronicAddIntoBom": {
+      "description": "无电气标识 - 允许加入BOM",
+      "type": "boolean"
+    },
+    "nonElectronicUpdatePcb": {
+      "description": "无电气标识 - 允许更新PCB",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "allowLibRename",
+    "defaultNetName",
+    "wireMultipleNet",
+    "netFlagCrossLayerConnection",
+    "netLabelCrossPageConnection",
+    "busGenerateNetClass",
+    "relevanceDisplayRow",
+    "relevanceBelongSchPage",
+    "relevanceLocation",
+    "multipartCrossLayer"
+  ],
+  "description": "通用设置\r\n\r\n工程设置文档（CONFIG）里的**通用设置行**，一行一条（`type:\"UNIVERSAL\"`）：工程内的全局开关集合——\r\n工程库命名、原理图侧的网络名 / 导线多网络 / 网络标识跨层连接 / 跨页连接 / 总线生成网络类，\r\n以及「关联信息」的三个显示口径（`relevanceDisplayRow` / `relevanceBelongSchPage` / `relevanceLocation`）。\r\n\r\n工程内只有一条通用设置行，其 id 是**固定单例名** `UNIVERSAL`（属**固定单例 id**，见 `TSingletonElementId`）。\r\n\r\n末尾两个无电气标识相关的开关（`nonElectronicAddIntoBom` / `nonElectronicUpdatePcb`）是**可选**字段，\r\n盘上可能整键缺失，读取端不要按必填处理。"
+}

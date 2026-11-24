@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "唯一标识",
+      "type": "string"
+    },
+    "strokeWidth": {
+      "description": "描边线宽：0 为不描边（mil）",
+      "type": "number"
+    },
+    "fill": {
+      "description": "是否填充",
+      "type": "boolean"
+    },
+    "path": {
+      "description": "填充结果轮廓：数组的每个元素是**一条独立的单多边形**（`TPcbSinglePolygon`），各元素并列存在、\r\n**不是**「外轮廓 + 内洞」的嵌套结构（此处数组只有一层）。\r\n\r\n⚠️ **此处不会出现 `[\"R\", …]` 矩形形态**（与 `TPcbPour.path` 等不同）。\r\n本字段由 `getPolygonsPath` 产出，该函数只产 `CIRCLE` 或指令序列；\r\n多边形解析只产出 `['CIRCLE', …]`，全文无任何 `'R'` 产出点。**不要照 `TPcbPour`\r\n的文档给这里写 R 形态。**",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "strokeWidth",
+    "fill",
+    "path"
+  ],
+  "description": "覆铜填充结果"
+}

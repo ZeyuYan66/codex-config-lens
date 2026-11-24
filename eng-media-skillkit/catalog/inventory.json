@@ -1,0 +1,2338 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-24",
+  "personal": [
+    {
+      "id": "3d-printing",
+      "name": "3d-printing",
+      "category": "机械、电子与机器人",
+      "summary_zh": "检查模型网格、装配尺寸和切片前的打印条件。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "cad-printing-workbench"
+    },
+    {
+      "id": "agent-browser",
+      "name": "agent-browser",
+      "category": "软件工程与自动化",
+      "summary_zh": "用浏览器自动化命令执行网页操作和交互检查。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "browser-workbench"
+    },
+    {
+      "id": "agent-reach",
+      "name": "agent-reach",
+      "category": "学习、研究与办公",
+      "summary_zh": "跨社交、视频和开发者平台查找公开资料。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "research-workbench"
+    },
+    {
+      "id": "anatomy",
+      "name": "anatomy",
+      "category": "视频、图像与设计",
+      "summary_zh": "用交互式等距图展示装置结构和工作原理。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "baoyu-cover-image",
+      "name": "baoyu-cover-image",
+      "category": "视频、图像与设计",
+      "summary_zh": "为文章封面选择版式、配色和绘制风格。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "baoyu-infographic",
+      "name": "baoyu-infographic",
+      "category": "视频、图像与设计",
+      "summary_zh": "把数据或文章组织成信息图，结合内容挑选结构与视觉风格。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "baoyu-markdown-to-html",
+      "name": "baoyu-markdown-to-html",
+      "category": "学习、研究与办公",
+      "summary_zh": "将 Markdown 渲染为适合公众号等渠道的 HTML。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "betaflight",
+      "name": "betaflight",
+      "category": "机械、电子与机器人",
+      "summary_zh": "阅读民用 FPV 飞控配置与飞行日志。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "browser-skill",
+      "name": "browser-skill",
+      "category": "软件工程与自动化",
+      "summary_zh": "通过已有 Chromium 会话进行网页操作与测试。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "browser-workbench",
+      "name": "browser-workbench",
+      "category": "软件工程与自动化",
+      "summary_zh": "为网页操作、本地 Web 测试和截图选择相应模块。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "building-simulink-models",
+      "name": "building-simulink-models",
+      "category": "机械、电子与机器人",
+      "summary_zh": "构建 Simulink、Stateflow 或 Simscape 模型并连接模块。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "cad",
+      "name": "cad",
+      "category": "机械、电子与机器人",
+      "summary_zh": "用 build123d 描述参数化零件、装配体与二维轮廓。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "cad-printing-workbench",
+      "name": "cad-printing-workbench",
+      "category": "机械、电子与机器人",
+      "summary_zh": "按任务选取 CadQuery 建模或网格打印准备工具。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "cadquery-llm",
+      "name": "cadquery-llm",
+      "category": "机械、电子与机器人",
+      "summary_zh": "用 CadQuery 编写实体模型，检查工作平面、倒角和导出结果。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "cad-printing-workbench"
+    },
+    {
+      "id": "canvas-design",
+      "name": "canvas-design",
+      "category": "视频、图像与设计",
+      "summary_zh": "制作可以导出 PNG 或 PDF 的海报与平面作品。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "capcut-edit",
+      "name": "capcut-edit",
+      "category": "视频、图像与设计",
+      "summary_zh": "调整剪映或 CapCut 草稿中的时间段、字幕、变速和音量。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "career-ops",
+      "name": "career-ops",
+      "category": "学习、研究与办公",
+      "summary_zh": "提取岗位要求、调整简历并安排求职准备。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "caveman",
+      "name": "caveman",
+      "category": "学习、研究与办公",
+      "summary_zh": "按要求使用极简的技术答复格式。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "claude-seo",
+      "name": "claude-seo",
+      "category": "学习、研究与办公",
+      "summary_zh": "检查网站结构、索引、内容和搜索可见性。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "code-simplification",
+      "name": "code-simplification",
+      "category": "软件工程与自动化",
+      "summary_zh": "在保持既有行为的前提下简化代码。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "codebase-design",
+      "name": "codebase-design",
+      "category": "软件工程与自动化",
+      "summary_zh": "梳理模块接口、依赖关系和领域术语。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "codebase-workbench"
+    },
+    {
+      "id": "codebase-workbench",
+      "name": "codebase-workbench",
+      "category": "软件工程与自动化",
+      "summary_zh": "为项目讲解、架构图、领域建模或接口设计选择模块。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "context-compression",
+      "name": "context-compression",
+      "category": "学习、研究与办公",
+      "summary_zh": "提炼长对话中的约束、进度和待办以便交接。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "context-optimization",
+      "name": "context-optimization",
+      "category": "学习、研究与办公",
+      "summary_zh": "控制读取范围和上下文预算，减少重复材料。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "cpp-pro",
+      "name": "cpp-pro",
+      "category": "软件工程与自动化",
+      "summary_zh": "编写、调试和优化现代 C++ 应用。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "cybersecurity-skills",
+      "name": "cybersecurity-skills",
+      "category": "软件工程与自动化",
+      "summary_zh": "防御性安全分析、监测和事件响应资料索引。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "diagram-design",
+      "name": "diagram-design",
+      "category": "视频、图像与设计",
+      "summary_zh": "为架构、流程、时序、状态或数据关系绘图。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "directing-stickman-videos",
+      "name": "directing-stickman-videos",
+      "category": "视频、图像与设计",
+      "summary_zh": "为火柴人解说短片编写旁白、分镜和动画提示。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "domain-modeling",
+      "name": "domain-modeling",
+      "category": "软件工程与自动化",
+      "summary_zh": "在术语表与决策记录中定义一致的领域概念。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "codebase-workbench"
+    },
+    {
+      "id": "easyeda-eprj3",
+      "name": "easyeda-eprj3",
+      "category": "机械、电子与机器人",
+      "summary_zh": "从结构化设计数据生成嘉立创 EDA 专业版原理图与 PCB 工程。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "easyeda-pro-format",
+      "name": "easyeda-format-skill",
+      "category": "机械、电子与机器人",
+      "summary_zh": "解析或生成嘉立创 EDA 专业版的符号、封装与设计数据。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "egm-workbench",
+      "name": "egm-workbench",
+      "category": "软件工程与自动化",
+      "summary_zh": "按 EGM 流程起草、独立评审和修订设计规范。",
+      "individually_enabled": true,
+      "listed_in_session": false
+    },
+    {
+      "id": "elaya-design",
+      "name": "elaya-design",
+      "category": "视频、图像与设计",
+      "summary_zh": "运用 Elaya 设计流程制作落地页或 Figma 界面。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "embedded-systems",
+      "name": "embedded-systems",
+      "category": "机械、电子与机器人",
+      "summary_zh": "编写微控制器固件，分析 RTOS 调度、功耗与外设交互。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "emil-design-eng",
+      "name": "emil-design-eng",
+      "category": "视频、图像与设计",
+      "summary_zh": "检查界面的反馈、过渡动画、间距和组件细节。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "engineering-domain-workbench",
+      "name": "engineering-domain-workbench",
+      "category": "机械、电子与机器人",
+      "summary_zh": "查找机器人仿真、工程图、结构分析与电路设计工作流。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "engineering-workflow",
+      "name": "engineering-workflow",
+      "category": "软件工程与自动化",
+      "summary_zh": "选择适合的调试、测试、规格设计和代码审查流程。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "find-skills",
+      "name": "find-skills",
+      "category": "学习、研究与办公",
+      "summary_zh": "根据任务需求查找可用的技能。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "category": "视频、图像与设计",
+      "summary_zh": "为新界面确定布局、字体、颜色和视觉方向。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "frontend-workbench"
+    },
+    {
+      "id": "frontend-workbench",
+      "name": "frontend-workbench",
+      "category": "视频、图像与设计",
+      "summary_zh": "为网页、移动端和桌面界面选择设计或前端实现模块。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "game-studio-workbench",
+      "name": "game-studio-workbench",
+      "category": "视频、图像与设计",
+      "summary_zh": "起草游戏设计文档，拆分制作里程碑和质量检查。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "github-top-skills",
+      "name": "github-top-skills",
+      "category": "学习、研究与办公",
+      "summary_zh": "按名称或类别查找已收录的 GitHub 工作流。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "graphify",
+      "name": "graphify",
+      "category": "软件工程与自动化",
+      "summary_zh": "绘制代码与文件关系图，用于了解项目架构。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "grill-me",
+      "name": "grill-me",
+      "category": "学习、研究与办公",
+      "summary_zh": "通过连续提问检验计划中的假设。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "planning-coach"
+    },
+    {
+      "id": "grill-with-docs",
+      "name": "grill-with-docs",
+      "category": "学习、研究与办公",
+      "summary_zh": "一边讨论设计决策，一边整理术语表和决策记录。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "planning-coach"
+    },
+    {
+      "id": "grilling",
+      "name": "grilling",
+      "category": "学习、研究与办公",
+      "summary_zh": "围绕方案、想法或决策组织深入追问。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "planning-coach"
+    },
+    {
+      "id": "hallmark",
+      "name": "hallmark",
+      "category": "视频、图像与设计",
+      "summary_zh": "设计具有一致视觉风格的网站和页面。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "handoff",
+      "name": "handoff",
+      "category": "学习、研究与办公",
+      "summary_zh": "把当前任务压缩为可由后续协作者接手的说明。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "engineering-workflow"
+    },
+    {
+      "id": "humanizer",
+      "name": "humanizer",
+      "category": "学习、研究与办公",
+      "summary_zh": "保留作者语气与含义，改善文章的自然程度。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "i-have-adhd",
+      "name": "i-have-adhd",
+      "category": "学习、研究与办公",
+      "summary_zh": "按读者要求，将说明拆成容易跟进的行动步骤。",
+      "individually_enabled": true,
+      "listed_in_session": false
+    },
+    {
+      "id": "image-to-editable-ppt",
+      "name": "image-to-editable-ppt",
+      "category": "学习、研究与办公",
+      "summary_zh": "根据页面截图或 PDF 重建可编辑幻灯片。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "impeccable",
+      "name": "impeccable",
+      "category": "视频、图像与设计",
+      "summary_zh": "评审并改进前端布局、交互、可访问性和视觉细节。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "improve-codebase-architecture",
+      "name": "improve-codebase-architecture",
+      "category": "软件工程与自动化",
+      "summary_zh": "查找适合改进的模块边界并讨论设计方案。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "codebase-workbench"
+    },
+    {
+      "id": "karpathy-guidelines",
+      "name": "karpathy-guidelines",
+      "category": "软件工程与自动化",
+      "summary_zh": "在代码变更中核对假设、范围和验证方法。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "last30days",
+      "name": "last30days",
+      "category": "学习、研究与办公",
+      "summary_zh": "汇总最近一个月各平台的公开讨论和趋势。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "research-workbench"
+    },
+    {
+      "id": "lemo-opuscar",
+      "name": "lemo-opuscar",
+      "category": "视频、图像与设计",
+      "summary_zh": "用代码安排短片风格、镜头和时间线。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "literature-review",
+      "name": "literature-review",
+      "category": "学习、研究与办公",
+      "summary_zh": "为研究问题搜集、筛选并综合学术文献。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "matlab-analyze-spectrum",
+      "name": "matlab-analyze-spectrum",
+      "category": "机械、电子与机器人",
+      "summary_zh": "用 MATLAB 估计信号频谱和功率谱密度。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "matlab-identify-linear-system",
+      "name": "matlab-identify-linear-system",
+      "category": "机械、电子与机器人",
+      "summary_zh": "根据输入输出测量数据估计线性系统模型。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "mattpocock-skills",
+      "name": "mattpocock-skills",
+      "category": "软件工程与自动化",
+      "summary_zh": "汇集 Matt Pocock 的规格编写、调试、测试和审查流程。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "engineering-workflow"
+    },
+    {
+      "id": "mod-any-game",
+      "name": "mod-any-game",
+      "category": "视频、图像与设计",
+      "summary_zh": "为自有 PC 游戏规划、制作并验证模组。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "mono-color",
+      "name": "mono-color",
+      "category": "视频、图像与设计",
+      "summary_zh": "设计单墨色或双色印刷风格的海报、封面和插画。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "office-workflow-workbench",
+      "name": "office-workflow-workbench",
+      "category": "学习、研究与办公",
+      "summary_zh": "为纪要、表格、演示和协作文档选择制作流程。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "pixelfx",
+      "name": "pixelfx",
+      "category": "视频、图像与设计",
+      "summary_zh": "制作像素特效，检查精灵动画并导出精灵图集。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "planning-coach",
+      "name": "planning-coach",
+      "category": "学习、研究与办公",
+      "summary_zh": "通过方案问答或计划文件梳理复杂任务。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "planning-with-files",
+      "name": "planning-with-files",
+      "category": "学习、研究与办公",
+      "summary_zh": "用持久化的计划、发现和进度文件跟踪多步工作。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "planning-coach"
+    },
+    {
+      "id": "ponytail",
+      "name": "ponytail",
+      "category": "软件工程与自动化",
+      "summary_zh": "以尽量小且可验证的改动解决开发任务。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "python-pro",
+      "name": "python-pro",
+      "category": "软件工程与自动化",
+      "summary_zh": "编写带类型标注、异步处理与错误管理的 Python 应用。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "quotation-generator",
+      "name": "quotation-generator",
+      "category": "学习、研究与办公",
+      "summary_zh": "整理报价明细并生成可交付的 PDF 报价单。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "research-workbench",
+      "name": "research-workbench",
+      "category": "学习、研究与办公",
+      "summary_zh": "为近期趋势或跨平台资料检索选择工作流。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "robot-perception",
+      "name": "robot-perception",
+      "category": "机械、电子与机器人",
+      "summary_zh": "规划相机、深度传感器、激光雷达和 IMU 的机器人感知处理。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "ros2",
+      "name": "ros2",
+      "category": "机械、电子与机器人",
+      "summary_zh": "组织 ROS 2 节点、通信接口及运行配置。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "scientific-brainstorming",
+      "name": "scientific-brainstorming",
+      "category": "学习、研究与办公",
+      "summary_zh": "基于现有证据提出和比较研究假设。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "scientific-critical-thinking",
+      "name": "scientific-critical-thinking",
+      "category": "学习、研究与办公",
+      "summary_zh": "检查实验设计、偏差、统计解释和证据强度。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "security-audit",
+      "name": "security-audit",
+      "category": "软件工程与自动化",
+      "summary_zh": "审查代码和 API 的安全防护与修复建议。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "setup-matt-pocock-skills",
+      "name": "setup-matt-pocock-skills",
+      "category": "软件工程与自动化",
+      "summary_zh": "为该工程工作流配置仓库议题、标签和文档结构。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "engineering-workflow"
+    },
+    {
+      "id": "simulating-simulink-models",
+      "name": "simulating-simulink-models",
+      "category": "机械、电子与机器人",
+      "summary_zh": "使用 SimulationInput 为 Simulink 设置仿真条件并运行批次。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "skill-manager",
+      "name": "skill-manager",
+      "category": "学习、研究与办公",
+      "summary_zh": "盘点个人技能，核对合并关系和原始入口。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "socratic-tutor",
+      "name": "socratic-tutor",
+      "category": "学习、研究与办公",
+      "summary_zh": "通过诊断提问、练习和反馈带领学习。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "sprite-gen",
+      "name": "sprite-gen",
+      "category": "视频、图像与设计",
+      "summary_zh": "制作二维游戏精灵帧、动作图集、换色与透明素材。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "study-research-workbench",
+      "name": "study-research-workbench",
+      "category": "学习、研究与办公",
+      "summary_zh": "安排课程学习、整理笔记，处理论文阅读与写作。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "taste-skill",
+      "name": "taste-skill",
+      "category": "视频、图像与设计",
+      "summary_zh": "用字体、构图和间距改善网页视觉层级。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "frontend-workbench"
+    },
+    {
+      "id": "tdd",
+      "name": "tdd",
+      "category": "软件工程与自动化",
+      "summary_zh": "从失败测试开始实现功能，再进行重构。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "engineering-workflow"
+    },
+    {
+      "id": "tf2-transforms",
+      "name": "tf2-transforms",
+      "category": "机械、电子与机器人",
+      "summary_zh": "检查 ROS 2 机器人坐标系关系与 TF2 变换。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "thinkrail-workbench",
+      "name": "thinkrail-workbench",
+      "category": "软件工程与自动化",
+      "summary_zh": "根据 Thinkrail 工作流组织新项目和规格文档。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "trading-research-workbench",
+      "name": "trading-research-workbench",
+      "category": "学习、研究与办公",
+      "summary_zh": "组织历史数据回测、策略假设和研究复盘。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "triage",
+      "name": "triage",
+      "category": "软件工程与自动化",
+      "summary_zh": "对仓库议题和外部贡献分类，整理后续处理所需信息。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "engineering-workflow"
+    },
+    {
+      "id": "ui-automation-workbench",
+      "name": "ui-automation-workbench",
+      "category": "软件工程与自动化",
+      "summary_zh": "为浏览器、Windows 应用或跨软件操作选择自动化方式。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "ui-ux-pro-max",
+      "category": "视频、图像与设计",
+      "summary_zh": "为响应式页面建立颜色、组件、排版和可访问性规范。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "frontend-workbench"
+    },
+    {
+      "id": "understand-anything",
+      "name": "understand-anything",
+      "category": "软件工程与自动化",
+      "summary_zh": "用代码关系图探索架构、跟踪改动和了解现有项目。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "codebase-workbench"
+    },
+    {
+      "id": "unslop",
+      "name": "unslop",
+      "category": "视频、图像与设计",
+      "summary_zh": "根据产品内容调整页面的风格、结构和组件表现。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "vercel-composition-patterns",
+      "name": "vercel-composition-patterns",
+      "category": "软件工程与自动化",
+      "summary_zh": "用组合方式组织可复用的 React 组件。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "frontend-workbench"
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "category": "软件工程与自动化",
+      "summary_zh": "根据 React 与 Next.js 项目特点检查性能。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "frontend-workbench"
+    },
+    {
+      "id": "vibe-research",
+      "name": "vibe-research",
+      "category": "学习、研究与办公",
+      "summary_zh": "在实现前调查产品想法及技术可行性。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "video-production-workbench",
+      "name": "video-production-workbench",
+      "category": "视频、图像与设计",
+      "summary_zh": "规划镜头、整理录屏、添加字幕，选择合适的剪辑与导出工具。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "category": "软件工程与自动化",
+      "summary_zh": "使用 Playwright 检查本地网页行为并保存页面反馈。",
+      "individually_enabled": false,
+      "listed_in_session": false,
+      "via": "browser-workbench"
+    },
+    {
+      "id": "write",
+      "name": "write",
+      "category": "学习、研究与办公",
+      "summary_zh": "润色中英文文章、技术说明和产品文案。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    },
+    {
+      "id": "writing-clearly-and-concisely",
+      "name": "writing-clearly-and-concisely",
+      "category": "学习、研究与办公",
+      "summary_zh": "精简技术文档与报告中的句子、段落和措辞。",
+      "individually_enabled": true,
+      "listed_in_session": true
+    }
+  ],
+  "system": [
+    {
+      "id": "create-statusline",
+      "name": "create-statusline",
+      "summary_zh": "定制 Codex CLI 底部状态栏显示的信息。",
+      "listed_in_session": false
+    },
+    {
+      "id": "imagegen",
+      "name": "imagegen",
+      "summary_zh": "生成或编辑位图、封面与视觉素材。",
+      "listed_in_session": true
+    },
+    {
+      "id": "openai-docs",
+      "name": "openai-docs",
+      "summary_zh": "查找 OpenAI 官方产品或 API 文档。",
+      "listed_in_session": true
+    },
+    {
+      "id": "review-agent",
+      "name": "review-agent",
+      "summary_zh": "对给定代码变更进行只读审查并列出可执行意见。",
+      "listed_in_session": false
+    },
+    {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "summary_zh": "创建或更新可被发现和复用的技能。",
+      "listed_in_session": true
+    },
+    {
+      "id": "skill-installer",
+      "name": "skill-installer",
+      "summary_zh": "从支持的来源添加技能。",
+      "listed_in_session": true
+    }
+  ],
+  "plugin_skills": [
+    {
+      "provider": "jianying-local-plugins",
+      "plugin": "jianying-mcp",
+      "version": "0.2.0",
+      "id": "jianying-sound-design",
+      "name": "jianying-sound-design",
+      "summary_zh": "为已有 Windows 剪映草稿补充音效并整理音轨。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-bundled",
+      "plugin": "computer-use",
+      "version": "26.1120.41243",
+      "id": "computer-use",
+      "name": "computer-use",
+      "summary_zh": "操作 Windows 应用完成界面任务。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-bundled",
+      "plugin": "visualize",
+      "version": "1.0.114",
+      "id": "visualize",
+      "name": "visualize",
+      "summary_zh": "创建支持交互的可视化图表与讲解工具。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "airtable",
+      "version": "7.0.0",
+      "id": "airtable-cli",
+      "name": "airtable-cli",
+      "summary_zh": "管理 Airtable 数据表、字段与记录。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "airtable",
+      "version": "7.0.0",
+      "id": "airtable-filters",
+      "name": "airtable-filters",
+      "summary_zh": "组合条件以筛选记录。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "airtable",
+      "version": "7.0.0",
+      "id": "airtable-overview",
+      "name": "airtable-overview",
+      "summary_zh": "理解工作区、数据库、表和记录的结构。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "canva",
+      "version": "17.0.3",
+      "id": "canva-instagram-post",
+      "name": "canva-instagram-post",
+      "summary_zh": "生成可编辑的社交媒体图文版式。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "assess-patch-risk",
+      "name": "assess-patch-risk",
+      "summary_zh": "评估变更引入的安全风险。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "attack-path-analysis",
+      "name": "attack-path-analysis",
+      "summary_zh": "针对已知风险记录影响范围及防御优先级。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "check-skills",
+      "name": "check-skills",
+      "summary_zh": "审查拟安装技能的权限与行为。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "cloud-findings",
+      "name": "cloud-findings",
+      "summary_zh": "读取云端已有的安全发现。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "deep-security-scan",
+      "name": "deep-security-scan",
+      "summary_zh": "深入审查仓库的防御措施与缺陷。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "define-security-policy",
+      "name": "define-security-policy",
+      "summary_zh": "编写或改进项目安全政策。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "finding-discovery",
+      "name": "finding-discovery",
+      "summary_zh": "识别代码中的潜在安全问题。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "fix-finding",
+      "name": "fix-finding",
+      "summary_zh": "按已有发现实施修复。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "propose-security-hardening",
+      "name": "propose-security-hardening",
+      "summary_zh": "提出结构性的安全加固措施。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "publish-findings",
+      "name": "publish-findings",
+      "summary_zh": "整理并提交已审查的安全记录。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "resolve-dependency-alert",
+      "name": "resolve-dependency-alert",
+      "summary_zh": "评估和处理依赖安全告警。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "security-diff-scan",
+      "name": "security-diff-scan",
+      "summary_zh": "审查代码变更涉及的安全风险。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "security-scan",
+      "name": "security-scan",
+      "summary_zh": "查找并记录仓库中的防御薄弱点。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "threat-model",
+      "name": "threat-model",
+      "summary_zh": "梳理系统资产、信任边界和防护需求。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "threat-model-visualize",
+      "name": "threat-model-visualize",
+      "summary_zh": "将威胁模型绘制为图表。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "track-findings",
+      "name": "track-findings",
+      "summary_zh": "在项目管理工具中跟踪整改进展。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "triage-finding",
+      "name": "triage-finding",
+      "summary_zh": "为现有发现核对范围和处理优先级。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "validation",
+      "name": "validation",
+      "summary_zh": "对已有发现的证据进行复核。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "verify-fix",
+      "name": "verify-fix",
+      "summary_zh": "核对修复是否解决已记录问题。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "codex-security",
+      "version": "0.1.33",
+      "id": "vulnerability-writeup",
+      "name": "vulnerability-writeup",
+      "summary_zh": "将安全发现整理为修复或披露报告。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-3d-transforms",
+      "name": "figma-3d-transforms",
+      "summary_zh": "在 Figma 中调整图层的三维变换效果。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-code-connect",
+      "name": "figma-code-connect",
+      "summary_zh": "对齐设计组件与代码组件的映射。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-code-workflows",
+      "name": "figma-code-workflows",
+      "summary_zh": "将本地页面或代码产物导入设计文件。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-create-new-file",
+      "name": "figma-create-new-file",
+      "summary_zh": "新建设计文件并整理起始结构。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-design-to-code",
+      "name": "figma-design-to-code",
+      "summary_zh": "根据设计文件实现页面或组件。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-generate-design",
+      "name": "figma-generate-design",
+      "summary_zh": "在 Figma 中生成和调整界面设计。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-generate-diagram",
+      "name": "figma-generate-diagram",
+      "summary_zh": "用图表说明结构、关系和流程。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-generate-library",
+      "name": "figma-generate-library",
+      "summary_zh": "构建设计系统与可复用组件库。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-generative-plugins",
+      "name": "figma-generative-plugins",
+      "summary_zh": "使用 Figma 的生成式插件能力。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-implement-motion",
+      "name": "figma-implement-motion",
+      "summary_zh": "将设计动效转化为可实现的动画。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-shaders",
+      "name": "figma-shaders",
+      "summary_zh": "为设计元素处理着色器效果。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-spec",
+      "name": "figma-spec",
+      "summary_zh": "编写和审阅设计规格。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-swiftui",
+      "name": "figma-swiftui",
+      "summary_zh": "处理 SwiftUI 与 Figma 设计之间的转换。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-use",
+      "name": "figma-use",
+      "summary_zh": "在 Figma 设计文件中执行编辑。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-use-figjam",
+      "name": "figma-use-figjam",
+      "summary_zh": "编辑 FigJam 白板。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-use-motion",
+      "name": "figma-use-motion",
+      "summary_zh": "操作 Figma 动画和动态设计。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "figma",
+      "version": "20.0.0",
+      "id": "figma-use-slides",
+      "name": "figma-use-slides",
+      "summary_zh": "编辑 Figma Slides 演示。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "google-drive",
+      "version": "0.1.28",
+      "id": "google-docs",
+      "name": "google-docs",
+      "summary_zh": "编写和编辑 Google 文档。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "google-drive",
+      "version": "0.1.28",
+      "id": "google-drive",
+      "name": "google-drive",
+      "summary_zh": "查找、整理 Google 云端硬盘文件。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "google-drive",
+      "version": "0.1.28",
+      "id": "google-drive-comments",
+      "name": "google-drive-comments",
+      "summary_zh": "处理文件评论、讨论和回复。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "google-drive",
+      "version": "0.1.28",
+      "id": "google-sheets",
+      "name": "google-sheets",
+      "summary_zh": "在 Google 表格中读写区域并分析数据。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "google-drive",
+      "version": "0.1.28",
+      "id": "google-slides",
+      "name": "google-slides",
+      "summary_zh": "编辑 Google 演示文稿。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-developers",
+      "version": "1.3.16",
+      "id": "agents",
+      "name": "agents",
+      "summary_zh": "构建使用 Agents SDK 或相关 API 的应用。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-developers",
+      "version": "1.3.16",
+      "id": "devday-guide",
+      "name": "devday-guide",
+      "summary_zh": "整理 DevDay 参会资料和活动安排。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-developers",
+      "version": "1.3.16",
+      "id": "openai-api-migration",
+      "name": "openai-api-migration",
+      "summary_zh": "迁移已有 OpenAI API 集成。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-developers",
+      "version": "1.3.16",
+      "id": "openai-api-troubleshooting",
+      "name": "openai-api-troubleshooting",
+      "summary_zh": "排查 API 集成中的请求错误。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-developers",
+      "version": "1.3.16",
+      "id": "openai-computer-use",
+      "name": "openai-computer-use",
+      "summary_zh": "构建或调试计算机操作类应用。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-developers",
+      "version": "1.3.16",
+      "id": "openai-platform-api-key",
+      "name": "openai-platform-api-key",
+      "summary_zh": "管理 API 密钥的设置与接入。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-developers",
+      "version": "1.3.16",
+      "id": "setup",
+      "name": "setup",
+      "summary_zh": "配置 OpenAI 开发者插件。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-analytics-dashboard",
+      "name": "artifact-template-analytics-dashboard",
+      "summary_zh": "以分析仪表盘模板组织指标与图表。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-business-review",
+      "name": "artifact-template-business-review",
+      "summary_zh": "制作业务复盘材料。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-design-report",
+      "name": "artifact-template-design-report",
+      "summary_zh": "组织设计过程、依据与结果。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-experiment-analysis",
+      "name": "artifact-template-experiment-analysis",
+      "summary_zh": "整理实验数据与分析结论。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-financial-budget",
+      "name": "artifact-template-financial-budget",
+      "summary_zh": "按模板编制财务预算。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-investment-committee-memo",
+      "name": "artifact-template-investment-committee-memo",
+      "summary_zh": "整理投资委员会备忘录。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-legal-memorandum",
+      "name": "artifact-template-legal-memorandum",
+      "summary_zh": "排版法律备忘录。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-market-trends-report",
+      "name": "artifact-template-market-trends-report",
+      "summary_zh": "编排市场趋势报告。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-minimal-letterhead",
+      "name": "artifact-template-minimal-letterhead",
+      "summary_zh": "生成简洁的信笺版式。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-operating-calendar",
+      "name": "artifact-template-operating-calendar",
+      "summary_zh": "安排运营日历。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-operating-review",
+      "name": "artifact-template-operating-review",
+      "summary_zh": "整理运营复盘材料。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-project-kickoff",
+      "name": "artifact-template-project-kickoff",
+      "summary_zh": "编排项目启动材料。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-project-tracker",
+      "name": "artifact-template-project-tracker",
+      "summary_zh": "建立项目进度跟踪表。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-sales-pipeline",
+      "name": "artifact-template-sales-pipeline",
+      "summary_zh": "整理销售管线数据。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-simple-dark-mode",
+      "name": "artifact-template-simple-dark-mode",
+      "summary_zh": "使用简洁的深色演示模板。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-simple-light-mode",
+      "name": "artifact-template-simple-light-mode",
+      "summary_zh": "使用简洁的浅色演示模板。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-strategy-memorandum",
+      "name": "artifact-template-strategy-memorandum",
+      "summary_zh": "组织策略备忘录。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-system-design",
+      "name": "artifact-template-system-design",
+      "summary_zh": "编排系统设计文档。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-team-alignment",
+      "name": "artifact-template-team-alignment",
+      "summary_zh": "整理团队目标和分工。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "openai-templates",
+      "version": "0.1.1",
+      "id": "artifact-template-three-statement-forecast",
+      "name": "artifact-template-three-statement-forecast",
+      "summary_zh": "编制三张财务报表的预测模型。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "pages",
+      "version": "0.1.26",
+      "id": "maintain-space",
+      "name": "maintain-space",
+      "summary_zh": "根据新资料更新已有 Pages 空间。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "pages",
+      "version": "0.1.26",
+      "id": "manage-schedules",
+      "name": "manage-schedules",
+      "summary_zh": "管理页面相关的计划任务。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "pages",
+      "version": "0.1.26",
+      "id": "organize-space",
+      "name": "organize-space",
+      "summary_zh": "整理空间的页面结构和导航。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "pages",
+      "version": "0.1.26",
+      "id": "write-page",
+      "name": "write-page",
+      "summary_zh": "撰写和更新 Pages 内容。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "plugin-management",
+      "version": "0.1.0",
+      "id": "plugin-management",
+      "name": "plugin-management",
+      "summary_zh": "查找插件并管理连接设置。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-best-practices",
+      "name": "remotion-best-practices",
+      "summary_zh": "按短片制作环节选择 Remotion 工作流。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-captions",
+      "name": "remotion-captions",
+      "summary_zh": "将转录结果显示为时间同步字幕。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-create",
+      "name": "remotion-create",
+      "summary_zh": "创建基于 React 的 Remotion 视频。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-docs",
+      "name": "remotion-docs",
+      "summary_zh": "查询 Remotion 的开发文档。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-interactivity",
+      "name": "remotion-interactivity",
+      "summary_zh": "为视频相关页面安排交互。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-maps",
+      "name": "remotion-maps",
+      "summary_zh": "制作地图元素及其动画。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-markup",
+      "name": "remotion-markup",
+      "summary_zh": "编排画面、动效与转场。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-multimedia",
+      "name": "remotion-multimedia",
+      "summary_zh": "通过 Mediabunny 读取或处理媒体。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-render",
+      "name": "remotion-render",
+      "summary_zh": "将视频工程渲染为成品。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-saas",
+      "name": "remotion-saas",
+      "summary_zh": "构建带视频生成能力的服务。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-studio",
+      "name": "remotion-studio",
+      "summary_zh": "在 Remotion Studio 预览作品。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "remotion",
+      "version": "4.0.534",
+      "id": "remotion-upgrade",
+      "name": "remotion-upgrade",
+      "summary_zh": "升级 Remotion 相关依赖。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "sites",
+      "version": "1.2.1-followup",
+      "id": "sites",
+      "name": "sites",
+      "summary_zh": "制作站点、作品集和仪表盘。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "sites",
+      "version": "1.2.1-followup",
+      "id": "sites-remix",
+      "name": "sites-remix",
+      "summary_zh": "基于已有站点制作新版本。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "brainstorming",
+      "name": "brainstorming",
+      "summary_zh": "在实现之前讨论需求和设计选项。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "diagnosing-superpowers",
+      "name": "diagnosing-superpowers",
+      "summary_zh": "排查 Superpowers 工作流运行问题。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "dispatching-parallel-agents",
+      "name": "dispatching-parallel-agents",
+      "summary_zh": "将可独立完成的任务分派给多个代理。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "executing-plans",
+      "name": "executing-plans",
+      "summary_zh": "执行已有实施计划并检查阶段结果。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "summary_zh": "检查开发分支的交付条件并整理集成方式。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "receiving-code-review",
+      "name": "receiving-code-review",
+      "summary_zh": "分析代码评审反馈并判断后续修改。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "requesting-code-review",
+      "name": "requesting-code-review",
+      "summary_zh": "为已完成的实现组织代码审查。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "subagent-driven-development",
+      "name": "subagent-driven-development",
+      "summary_zh": "用子代理分别执行计划中的开发任务。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "systematic-debugging",
+      "name": "systematic-debugging",
+      "summary_zh": "定位问题根因并验证修复。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "test-driven-development",
+      "name": "test-driven-development",
+      "summary_zh": "用测试驱动功能实现或缺陷修复。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "using-git-worktrees",
+      "name": "using-git-worktrees",
+      "summary_zh": "为隔离工作配置 Git 工作树。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "using-superpowers",
+      "name": "using-superpowers",
+      "summary_zh": "查找并选用 Superpowers 工作流。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "verification-before-completion",
+      "name": "verification-before-completion",
+      "summary_zh": "在提交完成结论前验证结果。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "writing-plans",
+      "name": "writing-plans",
+      "summary_zh": "将需求拆解为可执行的实施步骤。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "superpowers",
+      "version": "7.0.1",
+      "id": "writing-skills",
+      "name": "writing-skills",
+      "summary_zh": "编写、修改和验证可复用技能。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "visualize",
+      "version": "1.0.109",
+      "id": "visualize",
+      "name": "visualize",
+      "summary_zh": "创建支持交互的可视化图表与讲解工具。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "wallet",
+      "version": "0.1.77",
+      "id": "checkout-with-wallet",
+      "name": "checkout-with-wallet",
+      "summary_zh": "在获得授权时通过 Wallet 处理结算。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "work-pets",
+      "version": "0.1.6",
+      "id": "create-pet",
+      "name": "create-pet",
+      "summary_zh": "创建和预览工作区动画宠物。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "work-pets",
+      "version": "0.1.6",
+      "id": "pets",
+      "name": "pets",
+      "summary_zh": "查找、选择和管理已安装宠物。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-curated-remote",
+      "plugin": "work-pets",
+      "version": "0.1.6",
+      "id": "update-pet",
+      "name": "update-pet",
+      "summary_zh": "修改宠物设计与动画资源。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-primary-runtime",
+      "plugin": "documents",
+      "version": "26.1123.11515",
+      "id": "documents",
+      "name": "documents",
+      "summary_zh": "创建和修改 Word 文档、批注和修订。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-primary-runtime",
+      "plugin": "pdf",
+      "version": "26.1123.11515",
+      "id": "pdf",
+      "name": "pdf",
+      "summary_zh": "生成、读取、渲染并核对 PDF 文件。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-primary-runtime",
+      "plugin": "presentations",
+      "version": "26.1123.11515",
+      "id": "presentations",
+      "name": "Presentations",
+      "summary_zh": "创建、阅读和编辑演示文稿。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-primary-runtime",
+      "plugin": "spreadsheets",
+      "version": "26.1123.11515",
+      "id": "excel-live-control",
+      "name": "excel-live-control",
+      "summary_zh": "操作已打开的 Microsoft Excel 工作簿。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-primary-runtime",
+      "plugin": "spreadsheets",
+      "version": "26.1123.11515",
+      "id": "spreadsheets",
+      "name": "Spreadsheets",
+      "summary_zh": "创建、分析或修改电子表格。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "openai-primary-runtime",
+      "plugin": "template-creator",
+      "version": "26.1123.11515",
+      "id": "template-creator",
+      "name": "template-creator",
+      "summary_zh": "从现有样式和内容创建可复用的办公文档模板。",
+      "listed_in_session": true
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "gazebo-simulation",
+      "name": "gazebo-simulation",
+      "summary_zh": "制作与检查 Gazebo 机器人仿真。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "isaac-sim-robotics",
+      "name": "isaac-sim-robotics",
+      "summary_zh": "组织 Isaac Sim 与 Isaac Lab 的仿真工作。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "micro-ros-embedded",
+      "name": "micro-ros-embedded",
+      "summary_zh": "在微控制器上集成 micro-ROS。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "moveit2-manipulation",
+      "name": "moveit2-manipulation",
+      "summary_zh": "配置 MoveIt 2 机械臂建模和运动规划。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "nav2-navigation",
+      "name": "nav2-navigation",
+      "summary_zh": "配置 ROS 2 Navigation2 的定位和导航。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "robot-control",
+      "name": "robot-control",
+      "summary_zh": "处理机器人运动学、反馈控制与 ros2_control 集成。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "robot-vision",
+      "name": "robot-vision",
+      "summary_zh": "用 OpenCV、标定和点云处理机器人视觉数据。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "robotics-testing",
+      "name": "robotics-testing",
+      "summary_zh": "编排仿真、回放和可复现的机器人软件测试。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "ros2-development",
+      "name": "ros2-development",
+      "summary_zh": "创建或排查 ROS 2 软件包和节点。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "personal",
+      "plugin": "robotics-lab",
+      "version": "0.1.0",
+      "id": "slam-mapping",
+      "name": "slam-mapping",
+      "summary_zh": "处理机器人定位与二维或三维地图构建。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "agent-cost-report",
+      "name": "Agent Cost Report",
+      "summary_zh": "汇总代理运行成本。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "babysit",
+      "name": "babysit",
+      "summary_zh": "跟踪代码审查或持续集成状态。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "ccs-align",
+      "name": "ccs-align",
+      "summary_zh": "检查本地记忆服务、规则和观察记录的一致性。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "cloud-sync",
+      "name": "cloud-sync",
+      "summary_zh": "同步记忆服务数据。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "design-is",
+      "name": "design-is",
+      "summary_zh": "根据工业设计原则审查设计。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "do",
+      "name": "do",
+      "summary_zh": "执行已经拆分的实施计划。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "handoff",
+      "name": "handoff",
+      "summary_zh": "生成便于任务交接的上下文摘要。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "how-it-works",
+      "name": "how-it-works",
+      "summary_zh": "解释项目功能或内部运行方式。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "knowledge-agent",
+      "name": "knowledge-agent",
+      "summary_zh": "根据已有观察记录构建和查询知识库。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "learn-codebase",
+      "name": "learn-codebase",
+      "summary_zh": "学习并梳理代码库结构。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "make-plan",
+      "name": "make-plan",
+      "summary_zh": "将实现需求整理为阶段计划。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "mem-search",
+      "name": "mem-search",
+      "summary_zh": "在跨会话记忆中查找历史决策与工作记录。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "mode-creator",
+      "name": "mode-creator",
+      "summary_zh": "创建和验证自定义记忆模式。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "oh-my-issues",
+      "name": "oh-my-issues",
+      "summary_zh": "对仓库议题按相关性归组并整理处理方案。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "pathfinder",
+      "name": "pathfinder",
+      "summary_zh": "映射代码结构并分析可合并的功能。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "smart-explore",
+      "name": "smart-explore",
+      "summary_zh": "根据语法结构搜索代码。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "standup",
+      "name": "standup",
+      "summary_zh": "汇总不同分支与工作树的变更进展。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "timeline-report",
+      "name": "timeline-report",
+      "summary_zh": "基于项目时间线编写开发历史报告。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "version-bump",
+      "name": "version-bump",
+      "summary_zh": "整理插件版本与发布清单。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "weekly-digests",
+      "name": "weekly-digests",
+      "summary_zh": "根据时间线整理每周进展。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "what-the",
+      "name": "what-the",
+      "summary_zh": "用通俗语言解释技术主题。",
+      "listed_in_session": false
+    },
+    {
+      "provider": "thedotmack",
+      "plugin": "claude-mem",
+      "version": "13.35.0",
+      "id": "wowerpoint",
+      "name": "wowerpoint",
+      "summary_zh": "将文档整理为 NotebookLM 风格的演示材料。",
+      "listed_in_session": false
+    }
+  ],
+  "reference_collections": [
+    {
+      "id": "agent-reach",
+      "skill_files": 1,
+      "summary_zh": "跨平台检索和阅读资料。"
+    },
+    {
+      "id": "career-ops",
+      "skill_files": 11,
+      "summary_zh": "求职准备与申请管理。"
+    },
+    {
+      "id": "claude-seo",
+      "skill_files": 40,
+      "summary_zh": "网站技术审查与内容可发现性。"
+    },
+    {
+      "id": "cybersecurity-skills",
+      "skill_files": 818,
+      "summary_zh": "防御性安全资料集合；此处只记录集合规模。"
+    },
+    {
+      "id": "domain-skills-10k-20261118",
+      "skill_files": 89,
+      "summary_zh": "工程、研究、办公等领域的精选工作流。"
+    },
+    {
+      "id": "egm-workbench",
+      "skill_files": 8,
+      "summary_zh": "EGM 设计规格和评审工作流。"
+    },
+    {
+      "id": "elaya-design",
+      "skill_files": 2,
+      "summary_zh": "视觉与界面设计工作流。"
+    },
+    {
+      "id": "game-studio-workbench",
+      "skill_files": 78,
+      "summary_zh": "游戏设计、制作与项目管理。"
+    },
+    {
+      "id": "github-top200-20261118",
+      "skill_files": 136,
+      "summary_zh": "GitHub 工作流选集；本地文件数与排名条目数口径不同。"
+    },
+    {
+      "id": "humanizer",
+      "skill_files": 1,
+      "summary_zh": "自然语言润色与写作。"
+    },
+    {
+      "id": "imagegen-skills",
+      "skill_files": 4,
+      "summary_zh": "图像生成与设计工作流。"
+    },
+    {
+      "id": "last30days",
+      "skill_files": 1,
+      "summary_zh": "近期跨平台研究。"
+    },
+    {
+      "id": "lemo-opuscar",
+      "skill_files": 3,
+      "summary_zh": "代码短片制作与视觉风格素材。"
+    },
+    {
+      "id": "mattpocock-skills",
+      "skill_files": 39,
+      "summary_zh": "软件工程、测试与代码审查。"
+    },
+    {
+      "id": "pixelfx",
+      "skill_files": 1,
+      "summary_zh": "像素动画与特效。"
+    },
+    {
+      "id": "skill-management",
+      "skill_files": 745,
+      "summary_zh": "历史管理快照和备份，含重复文件。"
+    },
+    {
+      "id": "taste-skill",
+      "skill_files": 1,
+      "summary_zh": "网页视觉设计。"
+    },
+    {
+      "id": "taste-skill-classics",
+      "skill_files": 7,
+      "summary_zh": "视觉设计的扩展工作流。"
+    },
+    {
+      "id": "thinkrail-workbench",
+      "skill_files": 13,
+      "summary_zh": "需求、规格及工程协作。"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "skill_files": 13,
+      "summary_zh": "界面设计系统及多平台参考资料。"
+    },
+    {
+      "id": "understand-anything",
+      "skill_files": 9,
+      "summary_zh": "代码结构分析与可视化。"
+    }
+  ]
+}

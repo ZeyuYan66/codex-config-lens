@@ -1,0 +1,2165 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-24",
+  "personal": [
+    {
+      "id": "3d-printing",
+      "name": "3d-printing",
+      "status": "pinned",
+      "source": {
+        "repository": "TrillyD13/3d-printing-skill",
+        "commit": "54e837a8f372833962bdb68e543756d14c85b320",
+        "path": ".",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "agent-browser",
+      "name": "agent-browser",
+      "status": "pinned",
+      "source": {
+        "repository": "vercel-labs/agent-browser",
+        "commit": "0a923358ea989d7602f0d06507ad3447c62ffe9b",
+        "path": "skills/agent-browser",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "agent-reach",
+      "name": "agent-reach",
+      "status": "pinned",
+      "source": {
+        "repository": "Panniantong/Agent-Reach",
+        "commit": "a8ab1e9a2475957d759eac2dbedfe91b0a1e1021",
+        "path": "agent_reach/skill",
+        "kind": "entry",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "anatomy",
+      "name": "anatomy",
+      "status": "pinned",
+      "source": {
+        "repository": "wheresryan22/anatomy",
+        "commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+        "path": ".",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "baoyu-cover-image",
+      "name": "baoyu-cover-image",
+      "status": "pinned",
+      "source": {
+        "repository": "JimLiu/baoyu-skills",
+        "commit": "5792c7dc8d09a28d6969e8970166c5eb090ce6ad",
+        "path": "skills/baoyu-cover-image",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "baoyu-infographic",
+      "name": "baoyu-infographic",
+      "status": "pinned",
+      "source": {
+        "repository": "JimLiu/baoyu-skills",
+        "commit": "5792c7dc8d09a28d6969e8970166c5eb090ce6ad",
+        "path": "skills/baoyu-infographic",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "baoyu-markdown-to-html",
+      "name": "baoyu-markdown-to-html",
+      "status": "pinned",
+      "source": {
+        "repository": "JimLiu/baoyu-skills",
+        "commit": "5792c7dc8d09a28d6969e8970166c5eb090ce6ad",
+        "path": "skills/baoyu-markdown-to-html",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "betaflight",
+      "name": "betaflight",
+      "status": "catalog_only",
+      "note": "用途见技能目录；此处只保留入口名称。"
+    },
+    {
+      "id": "browser-skill",
+      "name": "browser-skill",
+      "status": "host_managed",
+      "note": "安装记录标为宿主捆绑版本；未记录独立上游的固定提交。"
+    },
+    {
+      "id": "browser-workbench",
+      "name": "browser-workbench",
+      "status": "local_router",
+      "routes": [
+        "agent-browser",
+        "webapp-testing"
+      ],
+      "note": "本机整合入口；模块版本见对应个人条目。"
+    },
+    {
+      "id": "building-simulink-models",
+      "name": "building-simulink-models",
+      "status": "pinned",
+      "source": {
+        "repository": "matlab/simulink-agentic-toolkit",
+        "commit": "632f560f34259cad5ef9a6f523c29b0ac3caa588",
+        "path": "skills-catalog/model-based-design-core/building-simulink-models",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "cad",
+      "name": "cad",
+      "status": "pinned",
+      "source": {
+        "repository": "earthtojake/text-to-cad",
+        "commit": "1e3bd9fc8b20724e40468c0da24d4a8ba14af366",
+        "path": "skills/cad",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "cad-printing-workbench",
+      "name": "cad-printing-workbench",
+      "status": "local_router",
+      "routes": [
+        "cadquery-llm",
+        "3d-printing"
+      ],
+      "note": "本机整合入口；模块版本见对应个人条目。"
+    },
+    {
+      "id": "cadquery-llm",
+      "name": "cadquery-llm",
+      "status": "pinned",
+      "source": {
+        "repository": "jmwright/cadquery-llm-skill",
+        "commit": "270c94be12897eea3fbfa450be43d1803a67cca7",
+        "path": ".",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "canvas-design",
+      "name": "canvas-design",
+      "status": "pinned",
+      "source": {
+        "repository": "anthropics/skills",
+        "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+        "path": "skills/canvas-design",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "capcut-edit",
+      "name": "capcut-edit",
+      "status": "pinned",
+      "note": "CLI 与剪映桌面端需按上游说明安装。",
+      "source": {
+        "repository": "renezander030/capcut-cli",
+        "commit": "8c026576e9bf9d4a53d72f66564d10e217cc0684",
+        "path": "skills/capcut-edit",
+        "kind": "entry",
+        "evidence": "v0.33.1 标签下的 Git blob 校验"
+      }
+    },
+    {
+      "id": "career-ops",
+      "name": "career-ops",
+      "status": "pinned",
+      "source": {
+        "repository": "career-ops-hq/career-ops",
+        "commit": "8c713f91d91b19ff5813290b146c6ce2521f4fc2",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "caveman",
+      "name": "caveman",
+      "status": "pinned",
+      "source": {
+        "repository": "JuliusBrussee/caveman",
+        "commit": "2e068f735253cce28256744804785f01887d9646",
+        "path": "plugins/caveman/skills/caveman",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "claude-seo",
+      "name": "claude-seo",
+      "status": "pinned",
+      "source": {
+        "repository": "AgriciDaniel/claude-seo",
+        "commit": "468ed5b0d9e3249394783710e54abb02837e326b",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "code-simplification",
+      "name": "code-simplification",
+      "status": "pinned",
+      "source": {
+        "repository": "addyosmani/agent-skills",
+        "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+        "path": "skills/code-simplification",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "codebase-design",
+      "name": "codebase-design",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/engineering/codebase-design",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "codebase-workbench",
+      "name": "codebase-workbench",
+      "status": "local_router",
+      "routes": [
+        "understand-anything",
+        "codebase-design",
+        "domain-modeling",
+        "improve-codebase-architecture"
+      ],
+      "note": "本机整合入口；模块版本见对应个人条目。"
+    },
+    {
+      "id": "context-compression",
+      "name": "context-compression",
+      "status": "pinned",
+      "source": {
+        "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "commit": "9ff0c99108b36d3b886defd825d8ac1f47dba374",
+        "path": "skills/context-compression",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "context-optimization",
+      "name": "context-optimization",
+      "status": "pinned",
+      "source": {
+        "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "commit": "9ff0c99108b36d3b886defd825d8ac1f47dba374",
+        "path": "skills/context-optimization",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "cpp-pro",
+      "name": "cpp-pro",
+      "status": "pinned",
+      "source": {
+        "repository": "Jeffallan/claude-skills",
+        "commit": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "path": "skills/cpp-pro",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "cybersecurity-skills",
+      "name": "cybersecurity-skills",
+      "status": "catalog_only",
+      "note": "用途见技能目录；此处只保留入口名称。"
+    },
+    {
+      "id": "diagram-design",
+      "name": "diagram-design",
+      "status": "pinned",
+      "source": {
+        "repository": "cathrynlavery/diagram-design",
+        "commit": "0eeda75a708f419560d5e032693618bb9954f17b",
+        "path": "skills/diagram-design",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "directing-stickman-videos",
+      "name": "directing-stickman-videos",
+      "status": "pinned",
+      "source": {
+        "repository": "kaomei/stickman-video-director",
+        "commit": "a112ca8b6546ab7246abe513724c28639e485dbf",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "专用入口安装收据"
+      }
+    },
+    {
+      "id": "domain-modeling",
+      "name": "domain-modeling",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/engineering/domain-modeling",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "easyeda-eprj3",
+      "name": "easyeda-eprj3",
+      "status": "pinned",
+      "source": {
+        "repository": "easyeda/easyeda-eprj3-skill",
+        "commit": "8ff62c549c81e1d373f4cb274871ad1ff42b61e4",
+        "path": ".",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "easyeda-pro-format",
+      "name": "easyeda-format-skill",
+      "status": "pinned",
+      "source": {
+        "repository": "easyeda/easyeda-pro-format-skill",
+        "commit": "4fcab1747d47b2ae01d7f93a485859970c5cf933",
+        "path": ".",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "egm-workbench",
+      "name": "egm-workbench",
+      "status": "pinned",
+      "source": {
+        "repository": "google/elephant-goldfish-model",
+        "commit": "113a3afc44e8f4f54722d7150d5701f65cc8ef7f",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "elaya-design",
+      "name": "elaya-design",
+      "status": "pinned",
+      "source": {
+        "repository": "elayadesign/ai-design-skills",
+        "commit": "456d9e0d3e2d84c748bb143c6ca3d90c45e16213",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "embedded-systems",
+      "name": "embedded-systems",
+      "status": "pinned",
+      "source": {
+        "repository": "Jeffallan/claude-skills",
+        "commit": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "path": "skills/embedded-systems",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "emil-design-eng",
+      "name": "emil-design-eng",
+      "status": "pinned",
+      "source": {
+        "repository": "emilkowalski/skills",
+        "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+        "path": "skills/emil-design-eng",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "engineering-domain-workbench",
+      "name": "engineering-domain-workbench",
+      "status": "local_collection",
+      "note": "本机整合入口；具体上游与固定版本见领域模块表。"
+    },
+    {
+      "id": "engineering-workflow",
+      "name": "engineering-workflow",
+      "status": "local_router",
+      "routes": [
+        "mattpocock-skills",
+        "tdd",
+        "setup-matt-pocock-skills",
+        "triage",
+        "handoff"
+      ],
+      "note": "本机整合入口；模块版本见对应个人条目。"
+    },
+    {
+      "id": "find-skills",
+      "name": "find-skills",
+      "status": "pinned",
+      "source": {
+        "repository": "vercel-labs/skills",
+        "commit": "9197d919034d19010ae303cf96bf19ad087dd4be",
+        "path": "skills/find-skills",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "status": "pinned",
+      "source": {
+        "repository": "anthropics/skills",
+        "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+        "path": "skills/frontend-design",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "frontend-workbench",
+      "name": "frontend-workbench",
+      "status": "local_router",
+      "routes": [
+        "frontend-design",
+        "taste-skill",
+        "ui-ux-pro-max",
+        "vercel-react-best-practices",
+        "vercel-composition-patterns"
+      ],
+      "note": "本机整合入口；模块版本见对应个人条目。"
+    },
+    {
+      "id": "game-studio-workbench",
+      "name": "game-studio-workbench",
+      "status": "pinned",
+      "source": {
+        "repository": "Donchitos/Claude-Code-Game-Studios",
+        "commit": "05ad7c8a5b8aa2aa86bbd3439ae7cf7295cac418",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "github-top-skills",
+      "name": "github-top-skills",
+      "status": "local_only",
+      "note": "本地排行索引混合了大量不同来源；各专用入口可按本表索引定位。"
+    },
+    {
+      "id": "graphify",
+      "name": "graphify",
+      "status": "pinned",
+      "source": {
+        "repository": "Graphify-Labs/graphify",
+        "commit": "013a6461c31da6e003c0dea191aca84c94cb8d47",
+        "path": "graphify",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "grill-me",
+      "name": "grill-me",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/productivity/grill-me",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "grill-with-docs",
+      "name": "grill-with-docs",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/engineering/grill-with-docs",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "grilling",
+      "name": "grilling",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/productivity/grilling",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "hallmark",
+      "name": "hallmark",
+      "status": "pinned",
+      "source": {
+        "repository": "Nutlope/hallmark",
+        "commit": "04977e15f3dfd6ee4b74c887dac3eb52665d6c92",
+        "path": "skills/hallmark",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "handoff",
+      "name": "handoff",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/productivity/handoff",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "humanizer",
+      "name": "humanizer",
+      "status": "pinned",
+      "source": {
+        "repository": "blader/humanizer",
+        "commit": "a32f24407364c74c812b43c15926d638bee1e072",
+        "path": ".",
+        "kind": "entry",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "i-have-adhd",
+      "name": "i-have-adhd",
+      "status": "pinned",
+      "source": {
+        "repository": "ayghri/i-have-adhd",
+        "commit": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+        "path": "skills/i-have-adhd",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "image-to-editable-ppt",
+      "name": "image-to-editable-ppt",
+      "status": "pinned",
+      "source": {
+        "repository": "ningzimu/image-to-editable-ppt-skill",
+        "commit": "b7be494e31a0ed56ef98716891db5474606b8cdf",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "专用入口安装收据"
+      }
+    },
+    {
+      "id": "impeccable",
+      "name": "impeccable",
+      "status": "pinned",
+      "source": {
+        "repository": "pbakaus/impeccable",
+        "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+        "path": ".agents/skills/impeccable",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "improve-codebase-architecture",
+      "name": "improve-codebase-architecture",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/engineering/improve-codebase-architecture",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "karpathy-guidelines",
+      "name": "karpathy-guidelines",
+      "status": "pinned",
+      "source": {
+        "repository": "multica-ai/andrej-karpathy-skills",
+        "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+        "path": "skills/karpathy-guidelines",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "last30days",
+      "name": "last30days",
+      "status": "pinned",
+      "source": {
+        "repository": "mvanhorn/last30days-skill",
+        "commit": "a854f3bcb2c4344d7498426d653378510f8b253a",
+        "path": "skills/last30days",
+        "kind": "entry",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "lemo-opuscar",
+      "name": "lemo-opuscar",
+      "status": "pinned",
+      "source": {
+        "repository": "lemomo-ai/lemo-opuscar",
+        "commit": "00a7f9ec99c8686265a8ca4ed9a3fdaaf27ea6f4",
+        "path": "plugin/skills/lemo-opuscar",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "literature-review",
+      "name": "literature-review",
+      "status": "pinned",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+        "path": "skills/literature-review",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "matlab-analyze-spectrum",
+      "name": "matlab-analyze-spectrum",
+      "status": "pinned",
+      "source": {
+        "repository": "matlab/matlab-agentic-toolkit",
+        "commit": "032b4b605999b1f4adecaac1efa1c9faad41adf6",
+        "path": "skills-catalog/signal-processing/matlab-analyze-spectrum",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "matlab-identify-linear-system",
+      "name": "matlab-identify-linear-system",
+      "status": "pinned",
+      "source": {
+        "repository": "matlab/matlab-agentic-toolkit",
+        "commit": "032b4b605999b1f4adecaac1efa1c9faad41adf6",
+        "path": "skills-catalog/control-systems/matlab-identify-linear-system",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "mattpocock-skills",
+      "name": "mattpocock-skills",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "mod-any-game",
+      "name": "mod-any-game",
+      "status": "catalog_only",
+      "note": "用途见技能目录；此处只保留入口名称。"
+    },
+    {
+      "id": "mono-color",
+      "name": "mono-color",
+      "status": "pinned",
+      "source": {
+        "repository": "yanliudesign/mono-color-skill",
+        "commit": "c8ff70597ddedcd65f21a0b528f6a70c35690b0a",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "专用入口安装收据"
+      }
+    },
+    {
+      "id": "office-workflow-workbench",
+      "name": "office-workflow-workbench",
+      "status": "local_collection",
+      "note": "本机整合入口；具体上游与固定版本见领域模块表。"
+    },
+    {
+      "id": "pixelfx",
+      "name": "pixelfx",
+      "status": "pinned",
+      "source": {
+        "repository": "patch-gg/pixelfx",
+        "commit": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "planning-coach",
+      "name": "planning-coach",
+      "status": "local_router",
+      "routes": [
+        "grilling",
+        "grill-me",
+        "grill-with-docs",
+        "planning-with-files"
+      ],
+      "note": "本机整合入口；模块版本见对应个人条目。"
+    },
+    {
+      "id": "planning-with-files",
+      "name": "planning-with-files",
+      "status": "pinned",
+      "source": {
+        "repository": "OthmanAdi/planning-with-files",
+        "commit": "51bf62def62d1cb317d37936929b4ef97cf862c3",
+        "path": "skills/planning-with-files",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "ponytail",
+      "name": "ponytail",
+      "status": "pinned",
+      "source": {
+        "repository": "DietrichGebert/ponytail",
+        "commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+        "path": "skills/ponytail",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "python-pro",
+      "name": "python-pro",
+      "status": "pinned",
+      "source": {
+        "repository": "Jeffallan/claude-skills",
+        "commit": "078a25cc5bfd8011459be7b91d004e900c1d02d3",
+        "path": "skills/python-pro",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "quotation-generator",
+      "name": "quotation-generator",
+      "status": "local_only",
+      "note": "本地报价单技能缺少可核实的上游版本记录。"
+    },
+    {
+      "id": "research-workbench",
+      "name": "research-workbench",
+      "status": "local_router",
+      "routes": [
+        "agent-reach",
+        "last30days"
+      ],
+      "note": "本机整合入口；模块版本见对应个人条目。"
+    },
+    {
+      "id": "robot-perception",
+      "name": "robot-perception",
+      "status": "pinned",
+      "source": {
+        "repository": "arpitg1304/robotics-agent-skills",
+        "commit": "f9bc5467ff9ee3d23f1a1b0b29a649843bb6ad11",
+        "path": "skills/robot-perception",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "ros2",
+      "name": "ros2",
+      "status": "pinned",
+      "source": {
+        "repository": "arpitg1304/robotics-agent-skills",
+        "commit": "f9bc5467ff9ee3d23f1a1b0b29a649843bb6ad11",
+        "path": "skills/ros2",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "scientific-brainstorming",
+      "name": "scientific-brainstorming",
+      "status": "pinned",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+        "path": "skills/scientific-brainstorming",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "scientific-critical-thinking",
+      "name": "scientific-critical-thinking",
+      "status": "pinned",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+        "path": "skills/scientific-critical-thinking",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "security-audit",
+      "name": "security-audit",
+      "status": "catalog_only",
+      "note": "用途见技能目录；此处只保留入口名称。"
+    },
+    {
+      "id": "setup-matt-pocock-skills",
+      "name": "setup-matt-pocock-skills",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/engineering/setup-matt-pocock-skills",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "simulating-simulink-models",
+      "name": "simulating-simulink-models",
+      "status": "pinned",
+      "source": {
+        "repository": "matlab/simulink-agentic-toolkit",
+        "commit": "f7330c565877a2bce42eb029baa988398e0dc415",
+        "path": "skills-catalog/model-based-design-core/simulating-simulink-models",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "skill-manager",
+      "name": "skill-manager",
+      "status": "local_only",
+      "note": "个人安装管理与合并关系由本地目录维护。"
+    },
+    {
+      "id": "socratic-tutor",
+      "name": "socratic-tutor",
+      "status": "pinned",
+      "source": {
+        "repository": "janestreet/agent_skills",
+        "commit": "469868f4489cbdbe178c775a0af05bb6bef63689",
+        "path": "socratic-tutor",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "sprite-gen",
+      "name": "sprite-gen",
+      "status": "pinned",
+      "source": {
+        "repository": "aldegad/sprite-gen",
+        "commit": "2d4a67397de1130de95bf35ae6c8007ad4b29873",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "专用入口安装收据"
+      }
+    },
+    {
+      "id": "study-research-workbench",
+      "name": "study-research-workbench",
+      "status": "local_collection",
+      "note": "本机整合入口；具体上游与固定版本见领域模块表。"
+    },
+    {
+      "id": "taste-skill",
+      "name": "taste-skill",
+      "status": "pinned",
+      "source": {
+        "repository": "Leonxlnx/taste-skill",
+        "commit": "6c0b5c78f5d31776e2210305abaa210cdc0030bf",
+        "path": "skills/taste-skill",
+        "kind": "entry",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "tdd",
+      "name": "tdd",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/engineering/tdd",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "tf2-transforms",
+      "name": "tf2-transforms",
+      "status": "pinned",
+      "source": {
+        "repository": "wimblerobotics/ros2-copilot-skills",
+        "commit": "46d1a54b83c9632aac3c01174c23385052da9b26",
+        "path": "tf2-transforms",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "thinkrail-workbench",
+      "name": "thinkrail-workbench",
+      "status": "pinned",
+      "source": {
+        "repository": "JetBrains/thinkrail",
+        "commit": "c10f8808cee693e4abffeeb1844a132ed0a91cc5",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "trading-research-workbench",
+      "name": "trading-research-workbench",
+      "status": "pinned",
+      "source": {
+        "repository": "tradermonty/claude-trading-skills",
+        "commit": "34b848b41f5741435bb4791692a6c0c7a66c0597",
+        "path": "skills",
+        "kind": "collection",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "triage",
+      "name": "triage",
+      "status": "pinned",
+      "source": {
+        "repository": "mattpocock/skills",
+        "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+        "path": "skills/engineering/triage",
+        "kind": "entry",
+        "evidence": "本机目录链接与共享库安装收据"
+      }
+    },
+    {
+      "id": "ui-automation-workbench",
+      "name": "ui-automation-workbench",
+      "status": "local_only",
+      "note": "本地入口引用 browser-workbench、Windows 应用工具及宿主的 Computer Use。",
+      "routes": [
+        "browser-workbench"
+      ],
+      "host_plugins": [
+        "computer-use"
+      ]
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "ui-ux-pro-max",
+      "status": "pinned",
+      "source": {
+        "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "e8b065f0f3aaf2e680fd125f000e4f5e351ed108",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "understand-anything",
+      "name": "understand-anything",
+      "status": "pinned",
+      "source": {
+        "repository": "Egonex-AI/Understand-Anything",
+        "commit": "bb70fdb0489f8839ce55bf99dae0125ea067f712",
+        "path": ".",
+        "kind": "collection",
+        "evidence": "参考库安装收据"
+      }
+    },
+    {
+      "id": "unslop",
+      "name": "unslop",
+      "status": "pinned",
+      "source": {
+        "repository": "heydamir/unslop",
+        "commit": "620163eedb3529d9cd23a3994ed8d287d06f760d",
+        "path": "skills/unslop",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "vercel-composition-patterns",
+      "name": "vercel-composition-patterns",
+      "status": "pinned",
+      "source": {
+        "repository": "vercel-labs/agent-skills",
+        "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+        "path": "skills/composition-patterns",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "status": "pinned",
+      "source": {
+        "repository": "vercel-labs/agent-skills",
+        "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+        "path": "skills/react-best-practices",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "vibe-research",
+      "name": "vibe-research",
+      "status": "local_only",
+      "note": "本地研究指南缺少可核实的上游版本记录。"
+    },
+    {
+      "id": "video-production-workbench",
+      "name": "video-production-workbench",
+      "status": "local_collection",
+      "note": "本机整合入口；具体上游与固定版本见领域模块表。"
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "status": "pinned",
+      "source": {
+        "repository": "anthropics/skills",
+        "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+        "path": "skills/webapp-testing",
+        "kind": "entry",
+        "evidence": "入口的上游版本收据"
+      }
+    },
+    {
+      "id": "write",
+      "name": "write",
+      "status": "local_only",
+      "note": "本地写作技能缺少可核实的上游版本记录。"
+    },
+    {
+      "id": "writing-clearly-and-concisely",
+      "name": "writing-clearly-and-concisely",
+      "status": "local_only",
+      "note": "本地写作指南缺少可核实的上游版本记录。"
+    }
+  ],
+  "domain_modules": [
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "robot-simulation",
+      "source": {
+        "repository": "earthtojake/text-to-cad",
+        "commit": "1e3bd9fc8b20724e40468c0da24d4a8ba14af366",
+        "path": "skills/robot-simulation/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "102b67ec59fae15385e7fadb6d5be7dcdcd54545690c0b991f02e92fb4ebba69"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "engineering-drawing",
+      "source": {
+        "repository": "earthtojake/text-to-cad",
+        "commit": "1e3bd9fc8b20724e40468c0da24d4a8ba14af366",
+        "path": "skills/engineering-drawing/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "bd721d38b490ecc7b0b2c7acfbc996ad997dc121d938edc206e60c9c6751e04f"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "fea",
+      "source": {
+        "repository": "earthtojake/text-to-cad",
+        "commit": "1e3bd9fc8b20724e40468c0da24d4a8ba14af366",
+        "path": "skills/fea/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "0cb68bf1fc23631046b31d3789f061b1f1bb8c1144119058ad63758d2f9882df"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "pcb",
+      "source": {
+        "repository": "earthtojake/text-to-cad",
+        "commit": "1e3bd9fc8b20724e40468c0da24d4a8ba14af366",
+        "path": "skills/pcb/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "36dc0bccf83fca0c4bfb25322fa5fdbead6cabc68ccb293d9bc157de6102ab26"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "render",
+      "source": {
+        "repository": "earthtojake/text-to-cad",
+        "commit": "1e3bd9fc8b20724e40468c0da24d4a8ba14af366",
+        "path": "skills/render/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "8147f5ef88e2f21481cde1c113bb8882a2d6377035d5226b885046e43a5dc3e6"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "print3d",
+      "source": {
+        "repository": "earthtojake/text-to-cad",
+        "commit": "1e3bd9fc8b20724e40468c0da24d4a8ba14af366",
+        "path": "skills/print3d/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "d63deffd8ec546e7dcc59640220acd188f961bc823058db69f8ff1666e589635"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "sympy",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+        "path": "skills/sympy/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "bb97087bdddccc845401737ddc7f7a8da1c14ced5e8d40da01271c991ac46e23"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "scientific-schematics",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+        "path": "skills/scientific-schematics/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "e15d761ef88013c98fd5b19cc144aba7336e20dbadf340db17bd1ba2227d1d69"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "scientific-slides",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+        "path": "skills/scientific-slides/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "b1d34b81d30789f561bd4ee3ddb373c9fb84bed25086794bebd842af46afbad6"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "latex-posters",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+        "path": "skills/latex-posters/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "4350dc80280fea210f9682991103445e97c58504ddd14e7a26f3d84e2fee5837"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "scientific-writing",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "commit": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+        "path": "skills/scientific-writing/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "511a2096bebecd8cf0f8212b9d262d37154ae1ba566eb385d93ac968682edbd1"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "drawio-skill",
+      "source": {
+        "repository": "Agents365-ai/drawio-skill",
+        "commit": "e0ac39c43e1b2b84e68dd25bb5c504e790448f16",
+        "path": "skills/drawio-skill/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "f390f875d422c1e0d52daa1406ad1ccf11b6a6cb2faa58e6706dc2600aa95916"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "visual-explainer",
+      "source": {
+        "repository": "nicobailon/visual-explainer",
+        "commit": "9d5f880b7e8e0a9a80c890b8e1bb6918b68481ad",
+        "path": "plugins/visual-explainer/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "44b9097facd21a313ef1f6f0e3b3fa788613cbdce51e06e65633da767693a438"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "academic-plotting",
+      "source": {
+        "repository": "Orchestra-Research/AI-Research-SKILLs",
+        "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+        "path": "20-ml-paper-writing/academic-plotting/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "6613653d8109dcae36596b37d7414d5ae394a18f81543365222286d04485fd83"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "systems-paper-writing",
+      "source": {
+        "repository": "Orchestra-Research/AI-Research-SKILLs",
+        "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+        "path": "20-ml-paper-writing/systems-paper-writing/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "ee31b50b25192efcfcbe3252d7e15d88ec27bbd94817640b0357090f94c0e297"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "ml-paper-writing",
+      "source": {
+        "repository": "Orchestra-Research/AI-Research-SKILLs",
+        "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+        "path": "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "96733e6d758642d792ed15b7c08eb90548d4775099368cd72a8312127f2fe911"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "presenting-conference-talks",
+      "source": {
+        "repository": "Orchestra-Research/AI-Research-SKILLs",
+        "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+        "path": "20-ml-paper-writing/presenting-conference-talks/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "5fb6b8f9e5b7690dcb0d783ff1e07c6d3f6b950b8f1238e0672e1f3c53bad57f"
+    },
+    {
+      "workbench": "engineering-domain-workbench",
+      "name": "huggingface-community-evals",
+      "source": {
+        "repository": "huggingface/skills",
+        "commit": "5291c2b9365e06b175dc04817610c778623f4836",
+        "path": "skills/huggingface-community-evals/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "a97f1c703f55b72427453a76af858237e6392a447fcafa9eeb85f7ac67f0155d"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "slack-gif-creator",
+      "source": {
+        "repository": "anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/slack-gif-creator/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "brag",
+      "source": {
+        "repository": "latent-spaces/brag",
+        "commit": "06379432a9243c951dfcc051153be18d2d261044",
+        "path": "skills/brag/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "c6277f2a00f50f4b4305d85e3420336f68ac0f292cc7611861d73c29c6868c9a"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "brag-slim",
+      "source": {
+        "repository": "latent-spaces/brag",
+        "commit": "06379432a9243c951dfcc051153be18d2d261044",
+        "path": "skills/brag-slim/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "963dbdc5dc1ecba2d096e0bfe08edeaba85bab9520a84b6c57b633078382f832"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "ffmpeg",
+      "source": {
+        "repository": "OpenMontageInc/OpenMontage",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "path": ".agents/skills/ffmpeg/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "20a0c1e35a683a6bdb2ba978cb822b950b3ead5d638e84ef711e021e52711d06"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "create-video",
+      "source": {
+        "repository": "OpenMontageInc/OpenMontage",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "path": ".agents/skills/create-video/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "7018274f6e11127eb6eafaaf3513dc5183e986924e5c32de905170d5817ab14b"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "video-edit",
+      "source": {
+        "repository": "OpenMontageInc/OpenMontage",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "path": ".agents/skills/video-edit/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "25a8a985c4ecc4ad4c32fe29f51d9122f02f149e641916e1709bee5dfaccb7f0"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "video-toolkit",
+      "source": {
+        "repository": "OpenMontageInc/OpenMontage",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "path": ".agents/skills/video-toolkit/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "4b815f9b94e0330f63df41683742eec6db8a3a8388aae466fd47ff3988bfc3dd"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "music-to-video",
+      "source": {
+        "repository": "OpenMontageInc/OpenMontage",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "path": ".agents/skills/music-to-video/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "6187efb7b0f8ed52e1b3be6d3ca6d5ec7f08d8a816c083b8a81c83adf7c20b36"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "gsap-timeline",
+      "source": {
+        "repository": "OpenMontageInc/OpenMontage",
+        "commit": "2e003e65fa99a0f329478a2c1cdcf26bc481933a",
+        "path": ".agents/skills/gsap-timeline/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "video-shotcraft",
+      "source": {
+        "repository": "Vincentwei1021/video-shotcraft",
+        "commit": "59f3e9b9e936ff2bce0e18446226d770a3f2f61f",
+        "path": "SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "9e6b2d68f50cae3d5405178d35d2bd305ee2045691fa726b63bae3ab8bb62e6b"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "openmotion-bilingual-captions",
+      "source": {
+        "repository": "nexu-io/openmotion",
+        "commit": "ff22a47ca65f03ee29d6020aef82bd5dc936d1c6",
+        "path": "library/skills/openmotion-bilingual-captions/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "eab2e76ee4c0556ff50d602a11aba43e6fcf98c418db0f35c2cbf8c05d9781d7"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "openmotion-caption-styling",
+      "source": {
+        "repository": "nexu-io/openmotion",
+        "commit": "ff22a47ca65f03ee29d6020aef82bd5dc936d1c6",
+        "path": "library/skills/openmotion-caption-styling/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "85143dfd3b992667618cb2b261731c1165c0a776b932353ddcaf2cbdd97191aa"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "openmotion-storyboard-to-motion",
+      "source": {
+        "repository": "nexu-io/openmotion",
+        "commit": "ff22a47ca65f03ee29d6020aef82bd5dc936d1c6",
+        "path": "library/skills/openmotion-storyboard-to-motion/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "4d8264a747e47227e73f76cf5f5d58cfc9b2ac27a0fb978e1a6862556d072f20"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "gsap-core",
+      "source": {
+        "repository": "greensock/gsap-skills",
+        "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+        "path": "skills/gsap-core/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "gsap-performance",
+      "source": {
+        "repository": "greensock/gsap-skills",
+        "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+        "path": "skills/gsap-performance/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e"
+    },
+    {
+      "workbench": "video-production-workbench",
+      "name": "gif-sticker-maker",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "skills/gif-sticker-maker/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "57002b47b7aaffb784acedae2750e14a75dc18ba58edb003f846755d7eb0c447"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "academic-paper-reviewer",
+      "source": {
+        "repository": "Imbad0202/academic-research-skills",
+        "commit": "1d42587c373890394edf0d0f9976069e13804b34",
+        "path": "academic-paper-reviewer/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "f65faaf1414f95c729307af7604ef253bb93ccf80484af61bc9f390b68141bd6"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "academic-paper",
+      "source": {
+        "repository": "Imbad0202/academic-research-skills",
+        "commit": "1d42587c373890394edf0d0f9976069e13804b34",
+        "path": "academic-paper/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "7cae675b3f7bc6bcc2207aad29bc5cb2c59f962e96026db956fd4f032d542192"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "academic-pipeline",
+      "source": {
+        "repository": "Imbad0202/academic-research-skills",
+        "commit": "1d42587c373890394edf0d0f9976069e13804b34",
+        "path": "academic-pipeline/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "cca9a5d29e1a0825e008bdf609c2230e9fcc8c87891681eeb77bfba32b247cf6"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "deep-research",
+      "source": {
+        "repository": "Imbad0202/academic-research-skills",
+        "commit": "1d42587c373890394edf0d0f9976069e13804b34",
+        "path": "deep-research/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "d4b056eab3bb520bf7a45aeb3cf16260b532e0d99cec414d9ed9085b1f470948"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "sr-screener",
+      "source": {
+        "repository": "Imbad0202/academic-research-skills",
+        "commit": "1d42587c373890394edf0d0f9976069e13804b34",
+        "path": "sr-screener/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "6bab01023c6a4b6534a5ba904511c60f1212416ce3f51be36c73486059ad4789"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "academic-research-suite",
+      "source": {
+        "repository": "Imbad0202/academic-research-skills-codex",
+        "commit": "82725acb393c4410ac6f47634a7f51b40a162fa4",
+        "path": "skills/academic-research-suite/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "44fe00bcd78d82e68fb048cf48ca5d9a1cf4450bb303c65c96d0680ab913a8a9"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "book-to-skill",
+      "source": {
+        "repository": "virgiliojr94/book-to-skill",
+        "commit": "57f3db51ff338edfd940a255b885c60ac90e40fa",
+        "path": "SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "a9abc901cbe5b557bb5dc54ec442a85664a532a7c072d76259dbef92b45435e2"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "json-canvas",
+      "source": {
+        "repository": "obsidianmd/obsidian-skills",
+        "commit": "1c3f6df5683588e39b12462a75d1d0fcf550f955",
+        "path": "plugins/obsidian/skills/json-canvas/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "4db4e69eea910b598c249e41bcdda85a70856348adaf11c35371198e258d50a6"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "obsidian-bases",
+      "source": {
+        "repository": "obsidianmd/obsidian-skills",
+        "commit": "1c3f6df5683588e39b12462a75d1d0fcf550f955",
+        "path": "plugins/obsidian/skills/obsidian-bases/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "7a1659e2c00e7b74c8767002213dd977967ddd30dd15a7f33b693e783a4546e9"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "obsidian-markdown",
+      "source": {
+        "repository": "obsidianmd/obsidian-skills",
+        "commit": "1c3f6df5683588e39b12462a75d1d0fcf550f955",
+        "path": "plugins/obsidian/skills/obsidian-markdown/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "f1c4ff5257d3f9743af797d755cabeef129f553704d5ff67ebf1239f9569f081"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "wiki",
+      "source": {
+        "repository": "AgriciDaniel/claude-obsidian",
+        "commit": "2e545563172f97f02ecaaaab376ceea1246a0583",
+        "path": "skills/wiki/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "562c92afa2ff44b3084ae5d4c2b9a3e4d09bfd20b586fc27d275c4b15cdd8662"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "wiki-ingest",
+      "source": {
+        "repository": "AgriciDaniel/claude-obsidian",
+        "commit": "2e545563172f97f02ecaaaab376ceea1246a0583",
+        "path": "skills/wiki-ingest/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "ff26d09933ad0f2a1eb4bc463bfc842ca6c7f3d56e212655739a743996aae604"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "wiki-lint",
+      "source": {
+        "repository": "AgriciDaniel/claude-obsidian",
+        "commit": "2e545563172f97f02ecaaaab376ceea1246a0583",
+        "path": "skills/wiki-lint/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "a660684a0b1cb5ea1382556922976b1abafa19e77992e694a7d8d9496d8a8215"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "wiki-query",
+      "source": {
+        "repository": "AgriciDaniel/claude-obsidian",
+        "commit": "2e545563172f97f02ecaaaab376ceea1246a0583",
+        "path": "skills/wiki-query/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "9e4b0cebfc70b045e212004345848686f5152a545e6149c7133f536d2744a97b"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "wiki-retrieve",
+      "source": {
+        "repository": "AgriciDaniel/claude-obsidian",
+        "commit": "2e545563172f97f02ecaaaab376ceea1246a0583",
+        "path": "skills/wiki-retrieve/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "654136eec3577929e457abb73444ff88ca9a753e6079b1e881daf59b70519427"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "notebooklm",
+      "source": {
+        "repository": "teng-lin/notebooklm-py",
+        "commit": "85143f05b5650bad70bffc72035d4bcaeef70270",
+        "path": "SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "e15e7a0a48ada895120e046fd36b5961f304a24356e3ad2988c87740e3ae7bf9"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "lesson-plan",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/lesson-plan/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "770513c2c97ea490355c994541b39fc2b99d315c59bec3db8596e4ec32279829"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "study-plan",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/study-plan/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "7b59b5d1ded17731b2cca921d6d4bb4b1cce09e0542aba84c077a02e6fc6a8af"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "course-slides",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/course-slides/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "0d8522464673c9e78fc844dc9cd467cf3d88de6cd329525ae27069b38c9a65cb"
+    },
+    {
+      "workbench": "study-research-workbench",
+      "name": "huggingface-papers",
+      "source": {
+        "repository": "huggingface/skills",
+        "commit": "5291c2b9365e06b175dc04817610c778623f4836",
+        "path": "skills/huggingface-papers/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "985c2d5c7261aba2b157811cde0c2b30134663694a4ab701280de28f941eb3b2"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "doc-coauthoring",
+      "source": {
+        "repository": "anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/doc-coauthoring/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "internal-comms",
+      "source": {
+        "repository": "anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/internal-comms/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "genoffice",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/genoffice/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "b73459f45d938d78a26d2d2c604830f989bdc3159e6bde8237670bf941460f1b"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "business-report",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/business-report/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "0fcbe726c51238d9cdccd17276d2922f1f8716280094fffb072ea3bcd91ee949"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "expense-report",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/expense-report/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "91d0db24e7c02d59b77d925bc33e8d84af31bf7d57816c03d7b80856b37d9850"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "meeting-minutes",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/meeting-minutes/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "02edfea43a30cb2fbecb55cde050cb1e22a7ee43599d6abec2b17b1a907465f5"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "slide-planner",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/slide-planner/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "e507390a2b723d72d56fbfc13e69ae74e6a3ede4430ace34473639fd32d330d2"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "weekly-report",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/weekly-report/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "c1b3878b7640105bd981781d8b55fd71a88b9f8ee14b226a317e20d679490b81"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "budget-planner",
+      "source": {
+        "repository": "genspark-ai/genoffice",
+        "commit": "b90e7989d170b47b4cedbd02591c4b98595067a6",
+        "path": "skills/recommended/budget-planner/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "86ad4e077a0cc0f566da2f0e1f65ef7178b99574d59ca390b8c42717a2061093"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "gws-docs",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/gws-docs/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "676eb7a1d9e4a7bde0d19669299858daea3220650657199f21dcebb7fa6bf9d6"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "gws-docs-write",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/gws-docs-write/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "219028230078e0d14df314f2ae18b5918721fb5e298bba7d0a010937b2965045"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "gws-shared",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/gws-shared/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "87abfb41cdcc300b7f2f733d1558a8af8d3c2a7cca1512f9eba244965fad98b2"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "gws-sheets",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/gws-sheets/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "e0db8bb632b3425b6f10dac7b30c85a4ba6ed0fd8421bccd3d2242588cc02208"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "gws-sheets-read",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/gws-sheets-read/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "2308eab564907f4d8789de030dadebf9187988a944a57da9ffd49ce7a4ecafef"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "gws-slides",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/gws-slides/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "ac0feaccf8292d5a8de0f4e3fbbdc20b94cf15afea652d127ddc12f631e190a3"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "recipe-create-presentation",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/recipe-create-presentation/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "e1fe223cd748f7024adb74896dd8cd7839875343a1903cdaa09f94a602782e4f"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "recipe-generate-report-from-sheet",
+      "source": {
+        "repository": "googleworkspace/cli",
+        "commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+        "path": "skills/recipe-generate-report-from-sheet/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "86de0f7e405fc97887120ae1224c2c4de10f1825713a50634c5b76ca692b9845"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "kami",
+      "source": {
+        "repository": "tw93/Kami",
+        "commit": "381db257079980c138700d89b7565afaa792fa6b",
+        "path": "skills/kami/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "795d78b8953621d64490db4e75782054c9c4bcfb3d8ac57f4504dcaa4ea071d5"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "minimax-docx",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "skills/minimax-docx/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "45c169630f30b8f034bc7d53edf73d592fbd82e82188beec7da3ca1996a97fb5"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "minimax-pdf",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "skills/minimax-pdf/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "8b0497ddd27da142deb09b570a56f702f95e5f3f1e192cfe1ae24421416a408d"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "minimax-xlsx",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "skills/minimax-xlsx/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "4ffb70af6ccd00e90c3b14516d50a850ae0f2f1807a01d326aa1393e0067dd41"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "pptx-generator",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "skills/pptx-generator/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "6eeb36239fdef35ab133ca462e1ec4674cb96dd9c5cd63da39c29151899bda10"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "color-font-skill",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "plugins/pptx-plugin/skills/color-font-skill/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "ac8ff901ad88a13d76ee72cc3a90cf08c6a4afb7331fc318250ca2b5938fd513"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "design-style-skill",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "plugins/pptx-plugin/skills/design-style-skill/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "b89d4b37c1024ab5d4852cea3bba9c7823e3a76e5e255c9bfcb07cde546899fe"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "ppt-editing-skill",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "plugins/pptx-plugin/skills/ppt-editing-skill/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "e390b991244ddac3b0e62124310b4882a300d2c7f9fc372d6b545321104229fe"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "ppt-orchestra-skill",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "plugins/pptx-plugin/skills/ppt-orchestra-skill/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "60c1981c3d741969ff7ee02bf20a58324f2b7659c7db0105ece09d5288f8b41e"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "slide-making-skill",
+      "source": {
+        "repository": "MiniMax-AI/skills",
+        "commit": "02853d885acb1abc157477ce00c4d98a8ed14a71",
+        "path": "plugins/pptx-plugin/skills/slide-making-skill/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "264c78af862fc8c2cad085bb15248e0ef2071e5adc3291a4e14faa9ba1443840"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "deck-open-slide-canvas",
+      "source": {
+        "repository": "nexu-io/open-design",
+        "commit": "07258801b9e4ae80553816bb1606af7aa9a63dff",
+        "path": "skills/deck-open-slide-canvas/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "f53bed57ed9460d9a2666b66727927fdba46ec7c4510e563ab91c401fa6bd5d9"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "frontend-slides",
+      "source": {
+        "repository": "nexu-io/open-design",
+        "commit": "07258801b9e4ae80553816bb1606af7aa9a63dff",
+        "path": "skills/frontend-slides/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "47ccc7a266a36fdfbfd7dbfbf210c4adddc96d299b170c74104ec533c01b3b15"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "slides",
+      "source": {
+        "repository": "nexu-io/open-design",
+        "commit": "07258801b9e4ae80553816bb1606af7aa9a63dff",
+        "path": "skills/slides/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "125c86cbbe7c012887bf4aec563844fdbaeebb39c16bb773a22d1c1dfa6d570c"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "meeting-insights-analyzer",
+      "source": {
+        "repository": "composio-community/awesome-codex-skills",
+        "commit": "0930e1373789d2eda449039f7ac154b33031de89",
+        "path": "meeting-insights-analyzer/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "2ee7403e6d32b40f312a508d7f95bf497e57d610cfdaf7d4167c9f18c01b7c9e"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "meeting-notes-and-actions",
+      "source": {
+        "repository": "composio-community/awesome-codex-skills",
+        "commit": "0930e1373789d2eda449039f7ac154b33031de89",
+        "path": "meeting-notes-and-actions/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "932eaf79198aba4322dca81bafe5fa0f1d00668b9b8b3f06918397b4a2d03f69"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "spreadsheet-formula-helper",
+      "source": {
+        "repository": "composio-community/awesome-codex-skills",
+        "commit": "0930e1373789d2eda449039f7ac154b33031de89",
+        "path": "spreadsheet-formula-helper/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "6d9d4b579e112e83c1ac657e60ef99b83a878a3c300f02bf267e84c8e3676cec"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "notion-research-documentation",
+      "source": {
+        "repository": "composio-community/awesome-codex-skills",
+        "commit": "0930e1373789d2eda449039f7ac154b33031de89",
+        "path": "notion-research-documentation/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7"
+    },
+    {
+      "workbench": "office-workflow-workbench",
+      "name": "notion-meeting-intelligence",
+      "source": {
+        "repository": "composio-community/awesome-codex-skills",
+        "commit": "0930e1373789d2eda449039f7ac154b33031de89",
+        "path": "notion-meeting-intelligence/SKILL.md",
+        "kind": "file",
+        "evidence": "领域模块收据及本地入口 SHA-256"
+      },
+      "upstream_receipt_sha256": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332"
+    }
+  ],
+  "mathworks_requirements": {
+    "matlab-analyze-spectrum": "MATLAB R2024b 或更新，Signal Processing Toolbox。",
+    "matlab-identify-linear-system": "MATLAB R2021a 或更新，System Identification Toolbox。",
+    "building-simulink-models": "MATLAB R2023a 或更新，Simulink；特定模型还需 Stateflow、System Composer 或 Simscape。",
+    "simulating-simulink-models": "MATLAB R2023a 或更新，Simulink。"
+  }
+}
